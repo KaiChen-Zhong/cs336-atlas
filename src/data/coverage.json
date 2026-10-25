@@ -1,0 +1,148 @@
+{
+  "videos": [
+    {
+      "label": "L01",
+      "url": "https://www.youtube.com/watch?v=JuoVZkPBiKk&t=0s",
+      "officialTitle": "Lecture 1: Overview, Tokenization",
+      "duration": "01:19:22",
+      "segments": 20,
+      "lastCaption": "01:19:17"
+    },
+    {
+      "label": "L02",
+      "url": "https://www.youtube.com/watch?v=kuYAsz7zspQ&t=0s",
+      "officialTitle": "Lecture 2: PyTorch (einops)",
+      "duration": "01:17:25",
+      "segments": 20,
+      "lastCaption": "01:17:21"
+    },
+    {
+      "label": "L03",
+      "url": "https://www.youtube.com/watch?v=lVynu4bo1rY&t=0s",
+      "officialTitle": "Lecture 3: Architectures",
+      "duration": "01:29:14",
+      "segments": 23,
+      "lastCaption": "01:29:10"
+    },
+    {
+      "label": "L04",
+      "url": "https://www.youtube.com/watch?v=cKSwj_qZ8Jg&t=0s",
+      "officialTitle": "Lecture 4: Attention Alternatives",
+      "duration": "01:26:21",
+      "segments": 22,
+      "lastCaption": "01:26:16"
+    },
+    {
+      "label": "L05",
+      "url": "https://www.youtube.com/watch?v=izZba4UA7iY&t=0s",
+      "officialTitle": "Lecture 5: GPUs, TPUs",
+      "duration": "01:18:39",
+      "segments": 20,
+      "lastCaption": "01:18:31"
+    },
+    {
+      "label": "L06",
+      "url": "https://www.youtube.com/watch?v=xnDHaNUvHBg&t=0s",
+      "officialTitle": "Lecture 6: Kernels, Triton, XLA",
+      "duration": "01:26:41",
+      "segments": 22,
+      "lastCaption": "01:26:37"
+    },
+    {
+      "label": "L07",
+      "url": "https://www.youtube.com/watch?v=SzpOcwdIL0Y&t=0s",
+      "officialTitle": "Lecture 7: Parallelism",
+      "duration": "01:21:03",
+      "segments": 21,
+      "lastCaption": "01:20:59"
+    },
+    {
+      "label": "L08",
+      "url": "https://www.youtube.com/watch?v=6-cXp-aOmdg&t=0s",
+      "officialTitle": "Lecture 8: Parallelism",
+      "duration": "01:20:11",
+      "segments": 21,
+      "lastCaption": "01:20:06"
+    },
+    {
+      "label": "L09",
+      "url": "https://www.youtube.com/watch?v=Q15rhEWZPQ4&t=0s",
+      "officialTitle": "Lecture 9: Scaling Laws",
+      "duration": "01:17:57",
+      "segments": 20,
+      "lastCaption": "01:17:50"
+    },
+    {
+      "label": "L10",
+      "url": "https://www.youtube.com/watch?v=EfM546A79aM&t=0s",
+      "officialTitle": "Lecture 10: Inference",
+      "duration": "01:25:30",
+      "segments": 22,
+      "lastCaption": "01:25:24"
+    },
+    {
+      "label": "L11",
+      "url": "https://www.youtube.com/watch?v=vTfEyOyzV9E&t=0s",
+      "officialTitle": "Lecture 11:  Scaling Laws",
+      "duration": "01:17:04",
+      "segments": 20,
+      "lastCaption": "01:16:58"
+    },
+    {
+      "label": "L12",
+      "url": "https://www.youtube.com/watch?v=JpAxdTWQJxM&t=0s",
+      "officialTitle": "Lecture 12: Evaluation",
+      "duration": "01:18:34",
+      "segments": 20,
+      "lastCaption": "01:18:29"
+    },
+    {
+      "label": "L13",
+      "url": "https://www.youtube.com/watch?v=-qm0ln33G24&t=0s",
+      "officialTitle": "Lecture 13: Data (Sources, Datasets)",
+      "duration": "01:22:02",
+      "segments": 21,
+      "lastCaption": "01:21:56"
+    },
+    {
+      "label": "L14",
+      "url": "https://www.youtube.com/watch?v=5sxHosTLPF8&t=0s",
+      "officialTitle": "Lecture 14: Data",
+      "duration": "01:24:46",
+      "segments": 22,
+      "lastCaption": "01:24:39"
+    },
+    {
+      "label": "L15",
+      "url": "https://www.youtube.com/watch?v=2oH6PWPrYFo&t=0s",
+      "officialTitle": "Lecture 15: Mid/Post-Training",
+      "duration": "01:19:55",
+      "segments": 20,
+      "lastCaption": "01:19:48"
+    },
+    {
+      "label": "L16",
+      "url": "https://www.youtube.com/watch?v=dIFAi87Ws4E&t=0s",
+      "officialTitle": "Lecture 16: Post-Training - RLVR",
+      "duration": "01:15:51",
+      "segments": 19,
+      "lastCaption": "01:15:45"
+    },
+    {
+      "label": "L17",
+      "url": "https://www.youtube.com/watch?v=26FtD08ZpOU&t=0s",
+      "officialTitle": "Lecture 17: Alignment - Multimodality",
+      "duration": "01:17:40",
+      "segments": 20,
+      "lastCaption": "01:17:35"
+    },
+    {
+      "label": "嘉宾 · Dan Fu",
+      "url": "https://www.youtube.com/watch?v=9EEm4iMAF5s&t=0s",
+      "officialTitle": "Guest Lecture: Dan Fu",
+      "duration": "01:11:41",
+      "segments": 18,
+      "lastCaption": "01:11:37"
+    }
+  ]
+}

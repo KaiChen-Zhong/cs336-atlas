@@ -1,0 +1,914 @@
+[
+  {
+    "id": "ref-1",
+    "title": "Prediction and Entropy of Printed English",
+    "url": "https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf",
+    "code": "shannon_1950",
+    "lectures": "L01",
+    "meta": "1950-09-15"
+  },
+  {
+    "id": "ref-2",
+    "title": "Long Short-Term Memory",
+    "url": "https://www.bioinf.jku.at/publications/older/2604.pdf",
+    "code": "lstm_1997",
+    "lectures": "L01",
+    "meta": "1997"
+  },
+  {
+    "id": "ref-3",
+    "title": "Language Models in Machine Translation",
+    "url": "https://aclanthology.org/D07-1090.pdf",
+    "code": "brants_2007",
+    "lectures": "L01",
+    "meta": "2007 · Google"
+  },
+  {
+    "id": "ref-4",
+    "title": "A Neural Probabilistic Language Model",
+    "url": "https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf",
+    "code": "bengio_2003",
+    "lectures": "L01",
+    "meta": "2003-02-01"
+  },
+  {
+    "id": "ref-5",
+    "title": "Understanding the difficulty of training deep feedforward neural networks",
+    "url": "https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf",
+    "code": "glorot_2010",
+    "lectures": "L01",
+    "meta": "2010-03-01"
+  },
+  {
+    "id": "ref-6",
+    "title": "adagrad_2011",
+    "url": "https://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf",
+    "code": "adagrad_2011",
+    "lectures": "L02",
+    "meta": "2011"
+  },
+  {
+    "id": "ref-7",
+    "title": "seq2seq_2014",
+    "url": "https://arxiv.org/pdf/1409.3215.pdf",
+    "code": "seq2seq_2014",
+    "lectures": "L01",
+    "meta": "Google"
+  },
+  {
+    "id": "ref-8",
+    "title": "adam_2014",
+    "url": "https://arxiv.org/pdf/1412.6980.pdf",
+    "code": "adam_2014",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-9",
+    "title": "bahdanau_2015_attention",
+    "url": "https://arxiv.org/pdf/1409.0473.pdf",
+    "code": "bahdanau_2015_attention",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-10",
+    "title": "sennrich_2016",
+    "url": "https://arxiv.org/abs/1508.07909",
+    "code": "sennrich_2016",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-11",
+    "title": "layernorm_2016",
+    "url": "https://arxiv.org/pdf/1607.06450.pdf",
+    "code": "layernorm_2016",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-12",
+    "title": "cosine_learning_rate_2017",
+    "url": "https://arxiv.org/pdf/1608.03983.pdf",
+    "code": "cosine_learning_rate_2017",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-13",
+    "title": "transformer_2017",
+    "url": "https://arxiv.org/pdf/1706.03762.pdf",
+    "code": "transformer_2017",
+    "lectures": "L01",
+    "meta": "Google"
+  },
+  {
+    "id": "ref-14",
+    "title": "adamw_2017",
+    "url": "https://arxiv.org/pdf/1711.05101.pdf",
+    "code": "adamw_2017",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-15",
+    "title": "ppo_2017",
+    "url": "https://arxiv.org/pdf/1707.06347.pdf",
+    "code": "ppo_2017",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-16",
+    "title": "moe_2017",
+    "url": "https://arxiv.org/pdf/1701.06538.pdf",
+    "code": "moe_2017",
+    "lectures": "L01",
+    "meta": "Google"
+  },
+  {
+    "id": "ref-17",
+    "title": "gpipe_2018",
+    "url": "https://arxiv.org/pdf/1811.06965.pdf",
+    "code": "gpipe_2018",
+    "lectures": "L01",
+    "meta": "Google"
+  },
+  {
+    "id": "ref-18",
+    "title": "large_batch_training_2018",
+    "url": "https://arxiv.org/pdf/1812.06162.pdf",
+    "code": "large_batch_training_2018",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-19",
+    "title": "elmo_2018",
+    "url": "https://arxiv.org/abs/1802.05365",
+    "code": "elmo_2018",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-20",
+    "title": "bert_2018",
+    "url": "https://arxiv.org/abs/1810.04805",
+    "code": "bert_2018",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-21",
+    "title": "sparse_transformer_2019",
+    "url": "https://arxiv.org/pdf/1904.10509.pdf",
+    "code": "sparse_transformer_2019",
+    "lectures": "L01、L10",
+    "meta": "OpenAI"
+  },
+  {
+    "id": "ref-22",
+    "title": "Language Models are Unsupervised Multitask Learners",
+    "url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+    "code": "gpt2_2019",
+    "lectures": "L01、L13",
+    "meta": "2019-02-14 · OpenAI"
+  },
+  {
+    "id": "ref-23",
+    "title": "OpenWebText",
+    "url": "https://skylion007.github.io/OpenWebTextCorpus/",
+    "code": "openwebtext_2019",
+    "lectures": "L13",
+    "meta": "2019"
+  },
+  {
+    "id": "ref-24",
+    "title": "t5_2019",
+    "url": "https://arxiv.org/pdf/1910.10683.pdf",
+    "code": "t5_2019",
+    "lectures": "L01",
+    "meta": "Google"
+  },
+  {
+    "id": "ref-25",
+    "title": "megatron_lm_2019",
+    "url": "https://arxiv.org/pdf/1909.08053.pdf",
+    "code": "megatron_lm_2019",
+    "lectures": "L01",
+    "meta": "NVIDIA"
+  },
+  {
+    "id": "ref-26",
+    "title": "zero_2019",
+    "url": "https://arxiv.org/abs/1910.02054",
+    "code": "zero_2019",
+    "lectures": "L01",
+    "meta": "Microsoft"
+  },
+  {
+    "id": "ref-27",
+    "title": "rms_norm_2019",
+    "url": "https://arxiv.org/abs/1910.07467",
+    "code": "rms_norm_2019",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-28",
+    "title": "kaplan_scaling_laws_2020",
+    "url": "https://arxiv.org/pdf/2001.08361.pdf",
+    "code": "kaplan_scaling_laws_2020",
+    "lectures": "L01",
+    "meta": "OpenAI"
+  },
+  {
+    "id": "ref-29",
+    "title": "shazeer_2020",
+    "url": "https://arxiv.org/pdf/2002.05202.pdf",
+    "code": "shazeer_2020",
+    "lectures": "L01",
+    "meta": "Google"
+  },
+  {
+    "id": "ref-30",
+    "title": "pre_post_norm_2020",
+    "url": "https://arxiv.org/pdf/2002.04745.pdf",
+    "code": "pre_post_norm_2020",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-31",
+    "title": "linear_attention_2020",
+    "url": "https://arxiv.org/abs/2006.16236",
+    "code": "linear_attention_2020",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-32",
+    "title": "longformer_2020",
+    "url": "https://arxiv.org/pdf/2004.05150.pdf",
+    "code": "longformer_2020",
+    "lectures": "L10",
+    "meta": "AllenAI"
+  },
+  {
+    "id": "ref-33",
+    "title": "gpt_3_2020",
+    "url": "https://arxiv.org/pdf/2005.14165.pdf",
+    "code": "gpt_3_2020",
+    "lectures": "L01",
+    "meta": "OpenAI"
+  },
+  {
+    "id": "ref-34",
+    "title": "the_pile_2020",
+    "url": "https://arxiv.org/pdf/2101.00027.pdf",
+    "code": "the_pile_2020",
+    "lectures": "L01、L14",
+    "meta": "EleutherAI"
+  },
+  {
+    "id": "ref-35",
+    "title": "mmlu_2021",
+    "url": "https://arxiv.org/pdf/2009.03300.pdf",
+    "code": "mmlu_2021",
+    "lectures": "L12",
+    "meta": "Berkeley"
+  },
+  {
+    "id": "ref-36",
+    "title": "rope_2021",
+    "url": "https://arxiv.org/pdf/2104.09864.pdf",
+    "code": "rope_2021",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-37",
+    "title": "megatron_parallelism_2021",
+    "url": "https://arxiv.org/pdf/2104.04473.pdf",
+    "code": "megatron_parallelism_2021",
+    "lectures": "",
+    "meta": "NVIDIA"
+  },
+  {
+    "id": "ref-38",
+    "title": "byt5_2021",
+    "url": "https://arxiv.org/abs/2105.13626",
+    "code": "byt5_2021",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-39",
+    "title": "GPT-J",
+    "url": "https://arankomatsuzaki.wordpress.com/2021/06/04/gpt-j/",
+    "code": "gpt_j_2021",
+    "lectures": "L01",
+    "meta": "2021-06-04 · EleutherAI"
+  },
+  {
+    "id": "ref-40",
+    "title": "gopher_2021",
+    "url": "https://arxiv.org/pdf/2112.11446.pdf",
+    "code": "gopher_2021",
+    "lectures": "L13",
+    "meta": "DeepMind"
+  },
+  {
+    "id": "ref-41",
+    "title": "switch_transformers_2021",
+    "url": "https://arxiv.org/abs/2101.03961",
+    "code": "switch_transformers_2021",
+    "lectures": "L01",
+    "meta": "Google"
+  },
+  {
+    "id": "ref-42",
+    "title": "instruct_gpt_2022",
+    "url": "https://arxiv.org/pdf/2203.02155.pdf",
+    "code": "instruct_gpt_2022",
+    "lectures": "L01",
+    "meta": "OpenAI"
+  },
+  {
+    "id": "ref-43",
+    "title": "chinchilla_2022",
+    "url": "https://arxiv.org/pdf/2203.15556.pdf",
+    "code": "chinchilla_2022",
+    "lectures": "L01",
+    "meta": "DeepMind"
+  },
+  {
+    "id": "ref-44",
+    "title": "palm_2022",
+    "url": "https://arxiv.org/pdf/2204.02311.pdf",
+    "code": "palm_2022",
+    "lectures": "L01",
+    "meta": "Google"
+  },
+  {
+    "id": "ref-45",
+    "title": "gpt_neox_2022",
+    "url": "https://arxiv.org/pdf/2204.06745.pdf",
+    "code": "gpt_neox_2022",
+    "lectures": "",
+    "meta": "EleutherAI"
+  },
+  {
+    "id": "ref-46",
+    "title": "opt_175b_2022",
+    "url": "https://arxiv.org/pdf/2205.01068.pdf",
+    "code": "opt_175b_2022",
+    "lectures": "L01",
+    "meta": "Meta"
+  },
+  {
+    "id": "ref-47",
+    "title": "bloom_2022",
+    "url": "https://arxiv.org/abs/2211.05100",
+    "code": "bloom_2022",
+    "lectures": "L01",
+    "meta": "BigScience"
+  },
+  {
+    "id": "ref-48",
+    "title": "The FLOPs Calculus of Language Model Training",
+    "url": "https://medium.com/@dzmitrybahdanau/the-flops-calculus-of-language-model-training-3b19c1f025e4",
+    "code": "bahdanau_training_costs_2022",
+    "lectures": "",
+    "meta": "2022-01-09"
+  },
+  {
+    "id": "ref-49",
+    "title": "mup_2022",
+    "url": "https://arxiv.org/abs/2203.03466",
+    "code": "mup_2022",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-50",
+    "title": "llama_2023",
+    "url": "https://arxiv.org/pdf/2302.13971.pdf",
+    "code": "llama_2023",
+    "lectures": "L01",
+    "meta": "Meta"
+  },
+  {
+    "id": "ref-51",
+    "title": "gpt_4_2023",
+    "url": "https://arxiv.org/pdf/2303.08774.pdf",
+    "code": "gpt_4_2023",
+    "lectures": "L01",
+    "meta": "OpenAI"
+  },
+  {
+    "id": "ref-52",
+    "title": "Alpaca",
+    "url": "https://crfm.stanford.edu/2023/03/13/alpaca.html",
+    "code": "alpaca_2023",
+    "lectures": "L13",
+    "meta": "2023-03-13"
+  },
+  {
+    "id": "ref-53",
+    "title": "Transformer Math 101",
+    "url": "https://blog.eleuther.ai/transformer-math/",
+    "code": "transformer_math_2023",
+    "lectures": "",
+    "meta": "2023-04-03 · EleutherAI"
+  },
+  {
+    "id": "ref-54",
+    "title": "gqa_2023",
+    "url": "https://arxiv.org/pdf/2305.13245.pdf",
+    "code": "gqa_2023",
+    "lectures": "L01、L10",
+    "meta": "Google"
+  },
+  {
+    "id": "ref-55",
+    "title": "lima_2023",
+    "url": "https://arxiv.org/pdf/2305.11206.pdf",
+    "code": "lima_2023",
+    "lectures": "",
+    "meta": ""
+  },
+  {
+    "id": "ref-56",
+    "title": "megabyte_2023",
+    "url": "https://arxiv.org/pdf/2305.07185.pdf",
+    "code": "megabyte_2023",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-57",
+    "title": "dpo_2023",
+    "url": "https://arxiv.org/pdf/2305.18290.pdf",
+    "code": "dpo_2023",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-58",
+    "title": "llama_2_2023",
+    "url": "https://arxiv.org/pdf/2307.09288.pdf",
+    "code": "llama_2_2023",
+    "lectures": "L01",
+    "meta": "Meta"
+  },
+  {
+    "id": "ref-59",
+    "title": "mistral_7b_2023",
+    "url": "https://arxiv.org/pdf/2310.06825.pdf",
+    "code": "mistral_7b_2023",
+    "lectures": "L01、L10",
+    "meta": "Mistral"
+  },
+  {
+    "id": "ref-60",
+    "title": "qk_norm_2023",
+    "url": "https://arxiv.org/abs/2302.05442",
+    "code": "qk_norm_2023",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-61",
+    "title": "llama_3_2024",
+    "url": "https://arxiv.org/abs/2407.21783",
+    "code": "llama_3_2024",
+    "lectures": "L01、L13",
+    "meta": "Meta"
+  },
+  {
+    "id": "ref-62",
+    "title": "deepseek_67b_2024",
+    "url": "https://arxiv.org/pdf/2401.02954.pdf",
+    "code": "deepseek_67b_2024",
+    "lectures": "L01",
+    "meta": "DeepSeek"
+  },
+  {
+    "id": "ref-63",
+    "title": "mixtral_2024",
+    "url": "https://arxiv.org/pdf/2401.04088.pdf",
+    "code": "mixtral_2024",
+    "lectures": "L01",
+    "meta": "Mistral"
+  },
+  {
+    "id": "ref-64",
+    "title": "olmo_7b_2024",
+    "url": "https://arxiv.org/pdf/2402.00838.pdf",
+    "code": "olmo_7b_2024",
+    "lectures": "L01",
+    "meta": "AI2"
+  },
+  {
+    "id": "ref-65",
+    "title": "dolma_2024",
+    "url": "https://arxiv.org/abs/2402.00159",
+    "code": "dolma_2024",
+    "lectures": "L14",
+    "meta": ""
+  },
+  {
+    "id": "ref-66",
+    "title": "deepseek_math_2024",
+    "url": "https://arxiv.org/pdf/2402.03300.pdf",
+    "code": "deepseek_math_2024",
+    "lectures": "",
+    "meta": ""
+  },
+  {
+    "id": "ref-67",
+    "title": "megascale_2024",
+    "url": "https://arxiv.org/pdf/2402.15627.pdf",
+    "code": "megascale_2024",
+    "lectures": "",
+    "meta": "Bytedance"
+  },
+  {
+    "id": "ref-68",
+    "title": "nemotron_15b_2024",
+    "url": "https://arxiv.org/pdf/2402.16819.pdf",
+    "code": "nemotron_15b_2024",
+    "lectures": "L01",
+    "meta": "NVIDIA"
+  },
+  {
+    "id": "ref-69",
+    "title": "yi_34b_2024",
+    "url": "https://arxiv.org/pdf/2403.04652.pdf",
+    "code": "yi_34b_2024",
+    "lectures": "",
+    "meta": "01.AI"
+  },
+  {
+    "id": "ref-70",
+    "title": "gemma_2024",
+    "url": "https://arxiv.org/pdf/2403.08295.pdf",
+    "code": "gemma_2024",
+    "lectures": "",
+    "meta": "Google DeepMind"
+  },
+  {
+    "id": "ref-71",
+    "title": "overtrained_scaling_laws_2024",
+    "url": "https://arxiv.org/pdf/2403.08540.pdf",
+    "code": "overtrained_scaling_laws_2024",
+    "lectures": "",
+    "meta": ""
+  },
+  {
+    "id": "ref-72",
+    "title": "minicpm_2024",
+    "url": "https://arxiv.org/pdf/2404.06395.pdf",
+    "code": "minicpm_2024",
+    "lectures": "",
+    "meta": "Tsinghua"
+  },
+  {
+    "id": "ref-73",
+    "title": "deepseek_v2_2024",
+    "url": "https://arxiv.org/abs/2405.04434",
+    "code": "deepseek_v2_2024",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-74",
+    "title": "mamba_2_2024",
+    "url": "https://arxiv.org/abs/2405.21060",
+    "code": "mamba_2_2024",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-75",
+    "title": "dclm_2024",
+    "url": "https://arxiv.org/abs/2406.11794",
+    "code": "dclm_2024",
+    "lectures": "L13、L14",
+    "meta": ""
+  },
+  {
+    "id": "ref-76",
+    "title": "tfree_2024",
+    "url": "https://arxiv.org/abs/2406.19223",
+    "code": "tfree_2024",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-77",
+    "title": "auxfree_2024",
+    "url": "https://arxiv.org/abs/2408.15664",
+    "code": "auxfree_2024",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-78",
+    "title": "mtp_2024",
+    "url": "https://arxiv.org/abs/2404.19737",
+    "code": "mtp_2024",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-79",
+    "title": "soap_2024",
+    "url": "https://arxiv.org/abs/2409.11321",
+    "code": "soap_2024",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-80",
+    "title": "huanyuan_large_2024",
+    "url": "https://arxiv.org/abs/2411.02265",
+    "code": "huanyuan_large_2024",
+    "lectures": "",
+    "meta": "Tencent"
+  },
+  {
+    "id": "ref-81",
+    "title": "qwen_2_5_2024",
+    "url": "https://arxiv.org/abs/2412.15115",
+    "code": "qwen_2_5_2024",
+    "lectures": "L01",
+    "meta": "Alibaba"
+  },
+  {
+    "id": "ref-82",
+    "title": "blt_2024",
+    "url": "https://arxiv.org/abs/2412.09871",
+    "code": "blt_2024",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-83",
+    "title": "nemotron_cc_2024",
+    "url": "https://arxiv.org/abs/2412.02595",
+    "code": "nemotron_cc_2024",
+    "lectures": "L13",
+    "meta": ""
+  },
+  {
+    "id": "ref-84",
+    "title": "gdn_2024",
+    "url": "https://arxiv.org/abs/2412.06464",
+    "code": "gdn_2024",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-85",
+    "title": "deepseek_v3_2024",
+    "url": "https://arxiv.org/pdf/2412.19437.pdf",
+    "code": "deepseek_v3_2024",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-86",
+    "title": "Muon: An optimizer for hidden layers in neural networks",
+    "url": "https://kellerjordan.github.io/posts/muon/",
+    "code": "muon_2024",
+    "lectures": "L01",
+    "meta": "2024-12-08"
+  },
+  {
+    "id": "ref-87",
+    "title": "wrap_2024",
+    "url": "https://arxiv.org/abs/2401.16380",
+    "code": "wrap_2024",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-88",
+    "title": "olmo_2_2025",
+    "url": "https://arxiv.org/abs/2501.00656",
+    "code": "olmo_2_2025",
+    "lectures": "L01、L13",
+    "meta": "AI2"
+  },
+  {
+    "id": "ref-89",
+    "title": "deepseek_r1_2025",
+    "url": "https://arxiv.org/pdf/2501.12948.pdf",
+    "code": "deepseek_r1_2025",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-90",
+    "title": "kimi_1_5_2025",
+    "url": "https://arxiv.org/pdf/2501.12599.pdf",
+    "code": "kimi_1_5_2025",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-91",
+    "title": "smollm_2_2025",
+    "url": "https://arxiv.org/pdf/2502.02737.pdf",
+    "code": "smollm_2_2025",
+    "lectures": "",
+    "meta": ""
+  },
+  {
+    "id": "ref-92",
+    "title": "Llama 4",
+    "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+    "code": "llama_4_2025",
+    "lectures": "",
+    "meta": "2025-04-05 · Meta"
+  },
+  {
+    "id": "ref-93",
+    "title": "OLMo 2 (32B)",
+    "url": "https://allenai.org/blog/olmo2-32B",
+    "code": "olmo_2_32b_2025",
+    "lectures": "",
+    "meta": "AI2"
+  },
+  {
+    "id": "ref-94",
+    "title": "qwen_3_2025",
+    "url": "https://arxiv.org/abs/2505.09388",
+    "code": "qwen_3_2025",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-95",
+    "title": "glm_4_5_2025",
+    "url": "https://arxiv.org/abs/2508.06471",
+    "code": "glm_4_5_2025",
+    "lectures": "L01",
+    "meta": "Z.ai"
+  },
+  {
+    "id": "ref-96",
+    "title": "longcat_flash_2025",
+    "url": "https://arxiv.org/abs/2509.01322",
+    "code": "longcat_flash_2025",
+    "lectures": "",
+    "meta": ""
+  },
+  {
+    "id": "ref-97",
+    "title": "ling_2_2025",
+    "url": "https://arxiv.org/abs/2510.22115",
+    "code": "ling_2_2025",
+    "lectures": "",
+    "meta": ""
+  },
+  {
+    "id": "ref-98",
+    "title": "hnet_2025",
+    "url": "https://arxiv.org/abs/2507.07955",
+    "code": "hnet_2025",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-99",
+    "title": "[[Marin 8B retro]](https://marin.readthedocs.io/en/latest/reports/marin-8b-retro/)",
+    "url": "",
+    "code": "marin_8b_2025",
+    "lectures": "L01",
+    "meta": "2025 · Marin"
+  },
+  {
+    "id": "ref-100",
+    "title": "[[Marin 32B retro]](https://marin.readthedocs.io/en/latest/reports/marin-32b-retro/)",
+    "url": "",
+    "code": "marin_32b_2025",
+    "lectures": "L01",
+    "meta": "2025 · Marin"
+  },
+  {
+    "id": "ref-101",
+    "title": "olmo_3_2025",
+    "url": "https://arxiv.org/abs/2512.13961",
+    "code": "olmo_3_2025",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-102",
+    "title": "nemotron_3_2025",
+    "url": "https://arxiv.org/abs/2512.20856",
+    "code": "nemotron_3_2025",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-103",
+    "title": "deepseek_v3_2_2025",
+    "url": "https://arxiv.org/abs/2512.02556",
+    "code": "deepseek_v3_2_2025",
+    "lectures": "L01、L02",
+    "meta": ""
+  },
+  {
+    "id": "ref-104",
+    "title": "regmix_2025",
+    "url": "https://arxiv.org/abs/2407.01492",
+    "code": "regmix_2025",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-105",
+    "title": "kimi_k2_5_2026",
+    "url": "https://arxiv.org/abs/2602.02276",
+    "code": "kimi_k2_5_2026",
+    "lectures": "L01",
+    "meta": "Moonshot"
+  },
+  {
+    "id": "ref-106",
+    "title": "glm_5_2026",
+    "url": "https://arxiv.org/abs/2602.15763",
+    "code": "glm_5_2026",
+    "lectures": "L01",
+    "meta": "Z.ai"
+  },
+  {
+    "id": "ref-107",
+    "title": "arcee_trinity_2026",
+    "url": "https://arxiv.org/abs/2602.17004",
+    "code": "arcee_trinity_2026",
+    "lectures": "",
+    "meta": ""
+  },
+  {
+    "id": "ref-108",
+    "title": "qwen_3_5_2026",
+    "url": "https://qwen.ai/blog?id=qwen3.5",
+    "code": "qwen_3_5_2026",
+    "lectures": "",
+    "meta": ""
+  },
+  {
+    "id": "ref-109",
+    "title": "[[MiniMax M2.5]](https://www.minimax.io/news/minimax-m25)",
+    "url": "",
+    "code": "minimax_m2_5_2026",
+    "lectures": "L01",
+    "meta": "2026 · Minimax"
+  },
+  {
+    "id": "ref-110",
+    "title": "[[Xiaomi MIMO v2]](https://mimo.xiaomi.com/mimo-v2-pro)",
+    "url": "",
+    "code": "xiaomi_mimo_v2_2026",
+    "lectures": "L01",
+    "meta": "2026 · Xiaomi"
+  },
+  {
+    "id": "ref-111",
+    "title": "mamba_3_2026",
+    "url": "https://arxiv.org/abs/2603.15569",
+    "code": "mamba_3_2026",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-112",
+    "title": "olmix_2026",
+    "url": "https://arxiv.org/abs/2602.12237",
+    "code": "olmix_2026",
+    "lectures": "L01",
+    "meta": ""
+  },
+  {
+    "id": "ref-113",
+    "title": "Nemotron 3 Super: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+    "url": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Super-Technical-Report.pdf",
+    "code": "nemotron_3_super_2026",
+    "lectures": "L02",
+    "meta": "2026-03-11 · NVIDIA"
+  },
+  {
+    "id": "ref-114",
+    "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf",
+    "code": "deepseek_v4_2026",
+    "lectures": "L10",
+    "meta": "2026-04 · DeepSeek"
+  }
+]

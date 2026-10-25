@@ -1,0 +1,1113 @@
+[
+  {
+    "id": "l01",
+    "number": "L01",
+    "title": "课程全景与分词",
+    "intro": "以固定资源下的效率为主线，说明从零训练语言模型的学习地图，并从朴素分词推导BPE。",
+    "duration": "01:19:22",
+    "durationSeconds": 4762,
+    "segmentCount": 20,
+    "youtubeId": "JuoVZkPBiKk",
+    "youtubeUrl": "https://www.youtube.com/watch?v=JuoVZkPBiKk",
+    "assignment": "A1",
+    "stage": 1,
+    "takeaways": [
+      "从小模型学机制和实验方法；不要默认小规模经验能外推到前沿规模。",
+      "模型训练贯穿表达能力、数值稳定性、计算与数据效率的权衡。",
+      "BPE用数据驱动的常见片段压缩文本，编码与解码必须可逆。"
+    ],
+    "keywords": [
+      "MoE",
+      "Transformer",
+      "FLOPs",
+      "SwiGLU",
+      "GLU",
+      "Adam",
+      "GPU",
+      "Marin",
+      "Tokenizer",
+      "BPE",
+      "HBM",
+      "Triton",
+      "Roofline"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=JuoVZkPBiKk&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/01-JuoVZkPBiKk.en-orig.vtt"
+      },
+      {
+        "label": "官方可执行讲义",
+        "href": "https://cs336.stanford.edu/lectures/?trace=lecture_01"
+      },
+      {
+        "label": "官方讲义源码",
+        "href": "https://github.com/stanford-cs336/lectures/blob/main/lecture_01.py"
+      }
+    ]
+  },
+  {
+    "id": "l02",
+    "number": "L02",
+    "title": "PyTorch、张量与资源核算",
+    "intro": "从张量精度与命名维度出发，推导训练FLOPs、显存账本和计算/带宽瓶颈，再介绍两类显存优化。",
+    "duration": "01:17:25",
+    "durationSeconds": 4645,
+    "segmentCount": 20,
+    "youtubeId": "kuYAsz7zspQ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=kuYAsz7zspQ",
+    "assignment": "A1",
+    "stage": 1,
+    "takeaways": [
+      "6ND来自线性层前向2ND加反向4ND，长上下文等情况需补额外成本。",
+      "硬件峰值不等于实测吞吐；先看算术强度，再判断该优化算术还是数据搬运。",
+      "参数之外还有梯度、优化器状态和激活，显存优化要找实际占用来源。"
+    ],
+    "keywords": [
+      "MFU",
+      "Marin",
+      "FP32",
+      "FP16",
+      "BF16",
+      "FP8",
+      "FP4",
+      "NVFP4",
+      "CPU",
+      "GPU",
+      "FLOPs",
+      "ReLU",
+      "HBM",
+      "GELU",
+      "Roofline",
+      "PyTorch",
+      "Adagrad",
+      "Adam"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=kuYAsz7zspQ&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/02-kuYAsz7zspQ.en-orig.vtt"
+      },
+      {
+        "label": "官方录制版可执行讲义",
+        "href": "https://cs336.stanford.edu/lectures/?trace=lecture_02_recording"
+      },
+      {
+        "label": "官方讲义源码",
+        "href": "https://github.com/stanford-cs336/lectures/blob/main/lecture_02.py"
+      }
+    ]
+  },
+  {
+    "id": "l03",
+    "number": "L03",
+    "title": "现代Transformer架构与训练稳定性",
+    "intro": "横向比较公开模型，梳理归一化、门控、RoPE、形状参数、稳定性措施及降低推理成本的注意力变体。",
+    "duration": "01:29:14",
+    "durationSeconds": 5354,
+    "segmentCount": 23,
+    "youtubeId": "lVynu4bo1rY",
+    "youtubeUrl": "https://www.youtube.com/watch?v=lVynu4bo1rY",
+    "assignment": "A1",
+    "stage": 1,
+    "takeaways": [
+      "先采用经过多模型验证的默认结构，再针对预算、任务与硬件做控制变量实验。",
+      "残差通路、归一化位置及softmax输入尺度决定大模型能否稳定训练。",
+      "GQA与局部/全局混合注意力把推理成本和长上下文需求直接写进架构。"
+    ],
+    "keywords": [
+      "Transformer",
+      "SwiGLU",
+      "GLU",
+      "RoPE",
+      "GPU",
+      "FFN",
+      "RMSNorm",
+      "FLOPs",
+      "MLP",
+      "GELU",
+      "Tokenizer",
+      "Softmax",
+      "Z-loss",
+      "QK-Norm",
+      "KV Cache",
+      "GQA",
+      "MQA",
+      "MHA",
+      "DeltaNet"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=lVynu4bo1rY&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/03-lVynu4bo1rY.en-orig.vtt"
+      },
+      {
+        "label": "官方课件PDF",
+        "href": "https://github.com/stanford-cs336/lectures/blob/main/lecture_03.pdf"
+      }
+    ]
+  },
+  {
+    "id": "l04",
+    "number": "L04",
+    "title": "高效注意力替代方案与混合专家",
+    "intro": "从线性注意力的结合律与递归状态推导混合长上下文架构，再拆解MoE路由、训练均衡和系统实现。",
+    "duration": "01:26:21",
+    "durationSeconds": 5181,
+    "segmentCount": 22,
+    "youtubeId": "cKSwj_qZ8Jg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=cKSwj_qZ8Jg",
+    "assignment": "A1",
+    "stage": 2,
+    "takeaways": [
+      "精确重排不改变注意力，去掉softmax或压缩有限状态会改变表达能力，必须区分。",
+      "MoE把总容量与每token计算分离；显存、通信、均衡和数值稳定仍是实际成本。",
+      "主流稀疏路由靠简单top-k与配套约束训练，不意味着离散选择本身变成可微。"
+    ],
+    "keywords": [
+      "MLP",
+      "FFN",
+      "FlashAttention",
+      "Softmax",
+      "Mamba",
+      "DeltaNet",
+      "DSA",
+      "MoE",
+      "FP32",
+      "Block",
+      "Z-loss",
+      "RoPE",
+      "MLA",
+      "MTP"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=cKSwj_qZ8Jg&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/04-cKSwj_qZ8Jg.en-orig.vtt"
+      },
+      {
+        "label": "官方课件PDF",
+        "href": "https://github.com/stanford-cs336/lectures/blob/main/lecture_04.pdf"
+      }
+    ]
+  },
+  {
+    "id": "l05",
+    "number": "L05",
+    "title": "GPU、TPU与高效核函数的硬件基础",
+    "intro": "建立GPU/TPU和分层存储的心智模型，解释融合、重算、量化、合并访问和分块如何合成FlashAttention。",
+    "duration": "01:18:39",
+    "durationSeconds": 4719,
+    "segmentCount": 20,
+    "youtubeId": "izZba4UA7iY",
+    "youtubeUrl": "https://www.youtube.com/watch?v=izZba4UA7iY",
+    "assignment": "A2",
+    "stage": 3,
+    "takeaways": [
+      "让Tensor Core忙起来只是半个问题，必须以足够低的数据搬运成本供给它。",
+      "矩阵形状、地址对齐、tile数量和SM数量会共同造成非单调性能变化。",
+      "FlashAttention把精确运算重新组织在存储层级上；它靠在线softmax、融合及重算节省HBM访问。"
+    ],
+    "keywords": [
+      "FlashAttention",
+      "GPU",
+      "CPU",
+      "HBM",
+      "SM",
+      "Warp",
+      "Block",
+      "TPU",
+      "Roofline",
+      "FP32",
+      "FP8",
+      "MXFP8",
+      "FP4",
+      "NVFP4",
+      "Softmax"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=izZba4UA7iY&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/05-izZba4UA7iY.en-orig.vtt"
+      },
+      {
+        "label": "官方课件PDF",
+        "href": "https://github.com/stanford-cs336/lectures/blob/main/lecture_05.pdf"
+      },
+      {
+        "label": "低精度格式校正：NVIDIA Transformer Engine",
+        "href": "https://docs.nvidia.com/deeplearning/transformer-engine/user-guide/examples/fp8_primer.html"
+      }
+    ]
+  },
+  {
+    "id": "l06",
+    "number": "L06",
+    "title": "核函数、Triton与性能测量实践",
+    "intro": "先用benchmark和profiler定位成本，再从GELU、softmax、长行求和到matmul，逐步理解Triton块级编程。",
+    "duration": "01:26:41",
+    "durationSeconds": 5201,
+    "segmentCount": 22,
+    "youtubeId": "xnDHaNUvHBg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xnDHaNUvHBg",
+    "assignment": "A2",
+    "stage": 3,
+    "takeaways": [
+      "先确认正确性并测量瓶颈，再选择内置实现、编译或自写kernel。",
+      "Triton中的逻辑块、tile和物理线程不是同一概念，索引、mask和stride决定正确的数据访问。",
+      "融合与分块复用是贯穿例子的核心；降低硬件占用率有时也能换来更多有效工作。"
+    ],
+    "keywords": [
+      "HBM",
+      "SM",
+      "Block",
+      "GPU",
+      "Triton",
+      "Softmax",
+      "Warp",
+      "CUDA",
+      "PyTorch",
+      "GELU",
+      "Transformer",
+      "PTX",
+      "ReLU"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=xnDHaNUvHBg&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/06-xnDHaNUvHBg.en-orig.vtt"
+      },
+      {
+        "label": "官方可执行讲义",
+        "href": "https://cs336.stanford.edu/lectures/?trace=lecture_06"
+      },
+      {
+        "label": "官方讲义源码",
+        "href": "https://github.com/stanford-cs336/lectures/blob/main/lecture_06.py"
+      },
+      {
+        "label": "讲义引用：Triton融合Softmax教程",
+        "href": "https://triton-lang.org/main/getting-started/tutorials/02-fused-softmax.html"
+      }
+    ]
+  },
+  {
+    "id": "l07",
+    "number": "L07",
+    "title": "并行基础：集体通信与三种并行训练",
+    "intro": "从GPU互连层级与collective原语出发，用最小MLP实现理解DDP、张量并行、流水线并行的切分和通信成本。",
+    "duration": "01:21:03",
+    "durationSeconds": 4863,
+    "segmentCount": 21,
+    "youtubeId": "SzpOcwdIL0Y",
+    "youtubeUrl": "https://www.youtube.com/watch?v=SzpOcwdIL0Y",
+    "assignment": "A2",
+    "stage": 3,
+    "takeaways": [
+      "掌握all-reduce = reduce-scatter + all-gather及各自输入输出分布。",
+      "DDP按数据切、TP按层内维度切、PP按层切，通信位置与内存收益不同。",
+      "基准测试必须处理CUDA和多进程两层异步，硬件拓扑决定并行方案。"
+    ],
+    "keywords": [
+      "并行",
+      "collective",
+      "broadcast",
+      "all-reduce",
+      "MoE",
+      "互连",
+      "RDMA",
+      "NCCL",
+      "拓扑",
+      "torch.distributed",
+      "API",
+      "异步",
+      "带宽",
+      "基准测试",
+      "DDP",
+      "张量并行",
+      "流水线",
+      "通信重叠",
+      "并行策略",
+      "权衡"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=SzpOcwdIL0Y&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/07-SzpOcwdIL0Y.en-orig.vtt"
+      },
+      {
+        "label": "官方交互讲义",
+        "href": "https://cs336.stanford.edu/lectures/?trace=lecture_07"
+      },
+      {
+        "label": "官方代码讲义（固定版本）",
+        "href": "https://github.com/stanford-cs336/lectures/blob/8b59b50730766695c2ffedd1a79c50cd09b9eb91/lecture_07.py"
+      }
+    ]
+  },
+  {
+    "id": "l08",
+    "number": "L08",
+    "title": "大规模并行：ZeRO、流水线、张量与专家并行",
+    "intro": "围绕显存、batch预算与互连带宽，推导ZeRO/FSDP及多种模型并行的成本，再用公开训练配置解释如何组合。",
+    "duration": "01:20:11",
+    "durationSeconds": 4811,
+    "segmentCount": 21,
+    "youtubeId": "6-cXp-aOmdg",
+    "youtubeUrl": "https://www.youtube.com/watch?v=6-cXp-aOmdg",
+    "assignment": "A2",
+    "stage": 3,
+    "takeaways": [
+      "ZeRO按优化器状态、梯度、参数逐步分片；额外通信是否影响吞吐取决于粒度与重叠。",
+      "PP消耗micro-batch以减少气泡，TP/EP消耗快互连以缩小模型与激活。",
+      "SP、CP并非同一概念；配置必须区分模型结构、训练阶段和实际硬件。"
+    ],
+    "keywords": [
+      "并行",
+      "拓扑",
+      "系统权衡",
+      "DDP",
+      "ZeRO",
+      "FSDP",
+      "通信重叠",
+      "临界batch",
+      "流水线",
+      "zero-bubble",
+      "张量并行",
+      "激活显存",
+      "sequence parallel",
+      "专家并行",
+      "DeepEP",
+      "context parallel",
+      "4D并行",
+      "扩展实验",
+      "训练案例",
+      "案例",
+      "预告"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=6-cXp-aOmdg&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/08-6-cXp-aOmdg.en-orig.vtt"
+      },
+      {
+        "label": "官方PDF（固定版本）",
+        "href": "https://github.com/stanford-cs336/lectures/blob/8b59b50730766695c2ffedd1a79c50cd09b9eb91/lecture_08.pdf"
+      }
+    ]
+  },
+  {
+    "id": "l09",
+    "number": "L09",
+    "title": "缩放定律基础：从数据幂律到Chinchilla",
+    "intro": "先用统计直觉解释数据幂律，再将缩放实验用于架构、batch和学习率选择，最后借Kaplan—Chinchilla分歧学习可靠外推。",
+    "duration": "01:17:57",
+    "durationSeconds": 4677,
+    "segmentCount": 20,
+    "youtubeId": "Q15rhEWZPQ4",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Q15rhEWZPQ4",
+    "assignment": "A3",
+    "stage": 4,
+    "takeaways": [
+      "幂律是有适用区间的经验规律；渐近误差、参数计数和训练配方都属于模型的一部分。",
+      "缩放实验不仅预测loss，也可用于数据混合、模型架构、batch及学习率决策。",
+      "IsoFLOPs以固定预算比较方案；训练算力最优不等于训练加服务的总成本最优。"
+    ],
+    "keywords": [
+      "scaling laws",
+      "历史",
+      "幂律",
+      "数据缩放",
+      "统计直觉",
+      "数据混合",
+      "重复数据",
+      "架构",
+      "优化器",
+      "参数口径",
+      "critical batch",
+      "batch估计",
+      "学习率",
+      "外推",
+      "联合缩放",
+      "Chinchilla",
+      "IsoFLOPs",
+      "拟合陷阱",
+      "训练与推理",
+      "实验设计"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=Q15rhEWZPQ4&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/09-Q15rhEWZPQ4.en-orig.vtt"
+      },
+      {
+        "label": "官方PDF（固定版本）",
+        "href": "https://github.com/stanford-cs336/lectures/blob/8b59b50730766695c2ffedd1a79c50cd09b9eb91/lecture_09.pdf"
+      }
+    ]
+  },
+  {
+    "id": "l10",
+    "number": "L10",
+    "title": "推理优化：KV缓存、量化、投机解码与动态服务",
+    "intro": "从算术强度解释prefill与decode的不同瓶颈，建立延迟/吞吐模型，再分别整理模型压缩、无损投机和服务调度。",
+    "duration": "01:25:30",
+    "durationSeconds": 5130,
+    "segmentCount": 22,
+    "youtubeId": "EfM546A79aM",
+    "youtubeUrl": "https://www.youtube.com/watch?v=EfM546A79aM",
+    "assignment": "A2 / A3",
+    "stage": 4,
+    "takeaways": [
+      "decode的历史KV读取缺少跨请求复用，单纯加batch无法消除注意力的带宽瓶颈。",
+      "batch、KV大小、模型权重与带宽共同影响延迟和吞吐；提升一个指标未必提升另一个。",
+      "有损压缩需验质量；精确投机采样靠接受/残差规则保分布，分页与连续batch提升动态服务效率。"
+    ],
+    "keywords": [
+      "推理",
+      "性能指标",
+      "张量形状",
+      "算术强度",
+      "roofline",
+      "KV cache",
+      "prefill",
+      "decode",
+      "带宽瓶颈",
+      "成本模型",
+      "batch",
+      "GQA",
+      "MLA",
+      "滑窗",
+      "稀疏注意力",
+      "量化",
+      "剪枝",
+      "speculative decoding",
+      "continuous batching",
+      "PagedAttention",
+      "总结"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=EfM546A79aM&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/10-EfM546A79aM.en-orig.vtt"
+      },
+      {
+        "label": "官方交互讲义",
+        "href": "https://cs336.stanford.edu/lectures/?trace=lecture_10"
+      },
+      {
+        "label": "官方代码讲义（固定版本）",
+        "href": "https://github.com/stanford-cs336/lectures/blob/8b59b50730766695c2ffedd1a79c50cd09b9eb91/lecture_10.py"
+      },
+      {
+        "label": "课堂使用的推理分析章节",
+        "href": "https://jax-ml.github.io/scaling-book/inference/"
+      }
+    ]
+  },
+  {
+    "id": "l11",
+    "number": "L11",
+    "title": "缩放进阶：公开配方、WSD、Muon与μP",
+    "intro": "比较MiniCPM的稳定参数化路线与DeepSeek的超参数预测路线，学习可复用训练预算、优化器公平对比和μP尺度推导。",
+    "duration": "01:17:04",
+    "durationSeconds": 4624,
+    "segmentCount": 20,
+    "youtubeId": "vTfEyOyzV9E",
+    "youtubeUrl": "https://www.youtube.com/watch?v=vTfEyOyzV9E",
+    "assignment": "A3",
+    "stage": 4,
+    "takeaways": [
+      "WSD把稳定训练主干与终点衰减分开，降低扫描不同token预算的重复成本。",
+      "优化器比较需公平调参，并检查算力与token/参数比例两个尺度轴。",
+      "μP目标是保持激活及更新尺度稳定，实际规则依网络结构、优化器和参数化约定。"
+    ],
+    "keywords": [
+      "缩放实践",
+      "MiniCPM",
+      "WSD",
+      "训练复用",
+      "DeepSeek",
+      "IsoFLOPs",
+      "模型案例",
+      "后训练边界",
+      "超参数搜索",
+      "学习率",
+      "Muon",
+      "公平实验",
+      "矩阵优化",
+      "Newton–Schulz",
+      "μP",
+      "初始化",
+      "尺度推导",
+      "学习率参数化",
+      "稳健性",
+      "总结"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=vTfEyOyzV9E&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/11-vTfEyOyzV9E.en-orig.vtt"
+      },
+      {
+        "label": "官方PDF（固定版本）",
+        "href": "https://github.com/stanford-cs336/lectures/blob/8b59b50730766695c2ffedd1a79c50cd09b9eb91/lecture_11.pdf"
+      }
+    ]
+  },
+  {
+    "id": "l12",
+    "number": "L12",
+    "title": "评价：困惑度、考试、聊天、Agent与有效性",
+    "intro": "把“模型好不好”拆成不同测量目的，比较六类评测范式，并检查裁判偏差、真实使用代表性、训练污染与任务质量。",
+    "duration": "01:18:34",
+    "durationSeconds": 4714,
+    "segmentCount": 20,
+    "youtubeId": "JpAxdTWQJxM",
+    "youtubeUrl": "https://www.youtube.com/watch?v=JpAxdTWQJxM",
+    "assignment": "A4",
+    "stage": 5,
+    "takeaways": [
+      "评测先定义目标能力和使用场景；分数不是脱离协议与样本分布的统一智能量。",
+      "PPL提供平滑分布指标，考试提供可判分题，开放聊天和agent需要额外裁判或环境约束。",
+      "必须同时审查模型、scaffold、数据来源与评测实现，定量分数应配实际输出检查。"
+    ],
+    "keywords": [
+      "评价目标",
+      "perplexity",
+      "零样本",
+      "条件评测",
+      "MMLU",
+      "GPQA",
+      "数据污染",
+      "HLE",
+      "Arena",
+      "LLM judge",
+      "rubric",
+      "SWE-bench",
+      "agent评测",
+      "ARC-AGI",
+      "推理",
+      "安全",
+      "生态有效性",
+      "有效性",
+      "质量审计",
+      "评价设计"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=JpAxdTWQJxM&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/12-JpAxdTWQJxM.en-orig.vtt"
+      },
+      {
+        "label": "官方交互讲义",
+        "href": "https://cs336.stanford.edu/lectures/?trace=lecture_12"
+      },
+      {
+        "label": "官方代码讲义（固定版本）",
+        "href": "https://github.com/stanford-cs336/lectures/blob/8b59b50730766695c2ffedd1a79c50cd09b9eb91/lecture_12.py"
+      },
+      {
+        "label": "HELM评测平台",
+        "href": "https://crfm.stanford.edu/helm/"
+      }
+    ]
+  },
+  {
+    "id": "l13",
+    "number": "L13",
+    "title": "数据来源、数据集与使用边界",
+    "intro": "沿数据的真实来源追踪到训练语料：先区分访问、许可与使用，再比较历代数据集如何用规则、模型和合成处理换取质量。",
+    "duration": "01:22:02",
+    "durationSeconds": 4922,
+    "segmentCount": 21,
+    "youtubeId": "-qm0ln33G24",
+    "youtubeUrl": "https://www.youtube.com/watch?v=-qm0ln33G24",
+    "assignment": "A4",
+    "stage": 5,
+    "takeaways": [
+      "数据是工程与社会过程的产物，公开模型权重不代表训练数据透明。",
+      "抽取、过滤、去重和混合会改变模型能力；质量代理必须通过下游实验检验。",
+      "原始数据量、独立 token 和含重复训练的总 token 是不同计量。"
+    ],
+    "keywords": [
+      "数据",
+      "训练阶段",
+      "爬虫",
+      "数据来源",
+      "robots.txt",
+      "数据治理",
+      "抓取",
+      "版权",
+      "copyright",
+      "license",
+      "fair use",
+      "memorization",
+      "案例",
+      "许可",
+      "Common Crawl",
+      "WARC",
+      "WET",
+      "Wikipedia",
+      "数据投毒",
+      "GitHub",
+      "arXiv",
+      "BERT",
+      "WebText",
+      "CCNet",
+      "C4",
+      "GPT-3",
+      "The Pile",
+      "Stack Exchange",
+      "Gopher",
+      "LLaMA",
+      "FineWeb",
+      "Dolma",
+      "DCLM",
+      "fastText",
+      "Nemotron-CC",
+      "合成数据",
+      "The Stack",
+      "代码数据",
+      "Common Pile",
+      "来源追踪",
+      "数据工程",
+      "作业4"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=-qm0ln33G24&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/13--qm0ln33G24.en-orig.vtt"
+      },
+      {
+        "label": "2026 官方可执行讲义",
+        "href": "https://cs336.stanford.edu/lectures/?trace=lecture_13"
+      },
+      {
+        "label": "美国版权局：期限核对",
+        "href": "https://www.copyright.gov/help/faq/faq-duration.html"
+      },
+      {
+        "label": "Creative Commons：许可类型核对",
+        "href": "https://creativecommons.org/cc-licenses/"
+      }
+    ]
+  },
+  {
+    "id": "l14",
+    "number": "L14",
+    "title": "数据处理：过滤、MinHash 去重、混合与合成",
+    "intro": "把原始内容变成有效训练数据：以廉价评分筛选，用 MinHash-LSH 查近重复，再用受数据量约束的混合实验连接预训练与任务轨迹。",
+    "duration": "01:24:46",
+    "durationSeconds": 5086,
+    "segmentCount": 22,
+    "youtubeId": "5sxHosTLPF8",
+    "youtubeUrl": "https://www.youtube.com/watch?v=5sxHosTLPF8",
+    "assignment": "A4",
+    "stage": 5,
+    "takeaways": [
+      "质量不是文档固有的单一分数；过滤阈值要随目标、算力和可用数据量选择。",
+      "MinHash 估计相似度，LSH 寻找候选；概率筛选不能被误读成精确重复判定。",
+      "混合设计的关键账本是每源重复轮数，代理实验也必须模拟最终数据稀缺。"
+    ],
+    "keywords": [
+      "数据流水线",
+      "HTML",
+      "FinePDFs",
+      "过滤",
+      "KenLM",
+      "fastText",
+      "OpenWebMath",
+      "phi-1",
+      "毒性过滤",
+      "训练预算",
+      "实验设计",
+      "重复",
+      "去重",
+      "去污染",
+      "哈希",
+      "Jaccard",
+      "MinHash",
+      "LSH",
+      "banding",
+      "概率",
+      "阈值",
+      "跨来源去重",
+      "data mixing",
+      "epoch",
+      "混合预算",
+      "UniMax",
+      "采样",
+      "RegMix",
+      "代理实验",
+      "跨尺度迁移",
+      "过拟合",
+      "simulated epoching",
+      "数据分域",
+      "OpenThoughts",
+      "教师模型",
+      "SWE-smith",
+      "SWE-Zero",
+      "SWE-Hero",
+      "SWE-rebench",
+      "总结"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=5sxHosTLPF8&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/14-5sxHosTLPF8.en-orig.vtt"
+      },
+      {
+        "label": "2026 官方可执行讲义",
+        "href": "https://cs336.stanford.edu/lectures/?trace=lecture_14"
+      }
+    ]
+  },
+  {
+    "id": "l15",
+    "number": "L15",
+    "title": "中期与后训练：SFT 数据、RLHF 与 DPO",
+    "intro": "先理解示范数据如何塑造风格、知识与安全，再从模仿分布转向优化偏好奖励，解释 PPO 的动机、DPO 的简化与奖励过度优化。",
+    "duration": "01:19:55",
+    "durationSeconds": 4795,
+    "segmentCount": 20,
+    "youtubeId": "2oH6PWPrYFo",
+    "youtubeUrl": "https://www.youtube.com/watch?v=2oH6PWPrYFo",
+    "assignment": "A5",
+    "stage": 6,
+    "takeaways": [
+      "SFT 不只是添加知识，也在塑造输出形式；风格改善、能力提高和事实可靠性要分别测量。",
+      "反馈质量取决于准则、标注者、教师与任务，不因标注一致或模型很强就自动可靠。",
+      "DPO 简化了偏好优化工程，但不能消除奖励偏差、分布迁移与模式塌缩。"
+    ],
+    "keywords": [
+      "post-training",
+      "SFT",
+      "RLHF",
+      "FLAN",
+      "Self-Instruct",
+      "Alpaca",
+      "质量",
+      "OpenAssistant",
+      "agent SFT",
+      "style bias",
+      "hallucination",
+      "校准",
+      "on-policy",
+      "safety SFT",
+      "Tulu 3",
+      "行为引导",
+      "反馈",
+      "mid-training",
+      "MiniCPM",
+      "数据消融",
+      "imitation vs optimization",
+      "preference data",
+      "annotation",
+      "bias",
+      "反馈质量",
+      "inter-annotator agreement",
+      "AI feedback",
+      "Constitutional AI",
+      "KL",
+      "policy gradient",
+      "PPO",
+      "DPO",
+      "reference policy",
+      "reward hacking",
+      "entropy"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=2oH6PWPrYFo&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/15-2oH6PWPrYFo.en-orig.vtt"
+      },
+      {
+        "label": "2026 官方 PDF",
+        "href": "https://github.com/stanford-cs336/lectures/blob/main/lecture_15.pdf"
+      }
+    ]
+  },
+  {
+    "id": "l16",
+    "number": "L16",
+    "title": "后训练：可验证奖励强化学习与推理模型",
+    "intro": "从策略梯度、PPO 与 GRPO 的实际更新出发，检查长度和难度偏差，再通过 R1、Kimi、Qwen 与代码智能体案例理解奖励、数据和训练系统如何共同决定推理能力。",
+    "duration": "01:15:51",
+    "durationSeconds": 4551,
+    "segmentCount": 19,
+    "youtubeId": "dIFAi87Ws4E",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dIFAi87Ws4E",
+    "assignment": "A5",
+    "stage": 6,
+    "takeaways": [
+      "GRPO 省去价值网络，但组内标准差与长度归一化仍会改变样本权重，算法简洁不等于目标没有偏差。",
+      "推理模型通常结合中期训练、SFT、RL、数据再生成与蒸馏，比较方法需拆开各阶段的贡献。",
+      "可验证奖励依赖验证器和任务环境；更长推理、反思措辞及奖励上涨都需要用真实正确率交叉验证。"
+    ],
+    "keywords": [
+      "RLVR",
+      "奖励",
+      "REINFORCE",
+      "PPO",
+      "KL",
+      "DPO",
+      "GRPO",
+      "优势",
+      "Dr. GRPO",
+      "基线",
+      "长度偏差",
+      "难度",
+      "DeepSeek-R1",
+      "R1-Zero",
+      "SFT",
+      "蒸馏",
+      "结果奖励",
+      "Kimi k1.5",
+      "数据筛选",
+      "长度奖励",
+      "验证器",
+      "RL 系统",
+      "异步",
+      "Qwen3",
+      "思考预算",
+      "Qwen3-Coder-Next",
+      "中期训练",
+      "专家蒸馏",
+      "奖励漏洞",
+      "评测",
+      "冷启动"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=dIFAi87Ws4E&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/16-dIFAi87Ws4E.en-orig.vtt"
+      },
+      {
+        "label": "官方 Lecture 16 课件 PDF",
+        "href": "https://github.com/stanford-cs336/lectures/blob/8b59b50730766695c2ffedd1a79c50cd09b9eb91/lecture_16.pdf"
+      }
+    ]
+  },
+  {
+    "id": "l17",
+    "number": "L17",
+    "title": "多模态模型：图文对齐、视觉语言模型与统一生成",
+    "intro": "从 CLIP、SigLIP 的图文表示学习，逐步拼接出 LLaVA 和 Qwen 视觉语言模型，再以 Chameleon 对照连续输入与离散生成的取舍。",
+    "duration": "01:17:40",
+    "durationSeconds": 4660,
+    "segmentCount": 20,
+    "youtubeId": "26FtD08ZpOU",
+    "youtubeUrl": "https://www.youtube.com/watch?v=26FtD08ZpOU",
+    "assignment": "A5",
+    "stage": 6,
+    "takeaways": [
+      "视觉编码器、投影器和语言模型组成常见 VLM；输入图像不等于模型能输出图像。",
+      "分辨率、视觉 token 数、时空位置与数据混合权重共同决定多模态任务效果和成本。",
+      "理解与生成对信息粒度要求不同，统一离散接口虽简洁，却带来细节损失与混合训练稳定性问题。"
+    ],
+    "keywords": [
+      "多模态",
+      "token",
+      "CLIP",
+      "对比学习",
+      "OpenCLIP",
+      "图像预处理",
+      "ViT",
+      "patch",
+      "零样本分类",
+      "EOS",
+      "SigLIP",
+      "sigmoid",
+      "分布式",
+      "LLaVA",
+      "合成数据",
+      "投影器",
+      "LLaVA-OneVision",
+      "AnyRes",
+      "视觉 token",
+      "数据混合",
+      "迁移",
+      "Qwen-VL",
+      "Qwen2-VL",
+      "MRoPE",
+      "Qwen3-VL",
+      "视频时间戳",
+      "DeepStack",
+      "长上下文",
+      "VLM",
+      "数据加载",
+      "复现",
+      "Chameleon",
+      "VQ-VAE",
+      "码本",
+      "训练稳定性",
+      "信息粒度"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=26FtD08ZpOU&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/17-26FtD08ZpOU.en-orig.vtt"
+      },
+      {
+        "label": "2026 官方可执行讲义",
+        "href": "https://cs336.stanford.edu/lectures/?trace=lecture_17"
+      },
+      {
+        "label": "固定版本官方讲义源码",
+        "href": "https://github.com/stanford-cs336/lectures/blob/8b59b50730766695c2ffedd1a79c50cd09b9eb91/lecture_17.py"
+      }
+    ]
+  },
+  {
+    "id": "dan-fu",
+    "number": "嘉宾 · Dan Fu",
+    "title": "Dan Fu 嘉宾讲：推理系统、Megakernel 与 Parcae 循环模型",
+    "intro": "沿一次模型请求梳理负载、缓存、并行与路由，再从 megakernel 和 Parcae 两项研究理解推理约束如何推动系统与模型架构协同设计。此为播放列表第 18 项，课表对应第 19 次课程的 Dan Fu 嘉宾讲。",
+    "duration": "01:11:41",
+    "durationSeconds": 4301,
+    "segmentCount": 18,
+    "youtubeId": "9EEm4iMAF5s",
+    "youtubeUrl": "https://www.youtube.com/watch?v=9EEm4iMAF5s",
+    "assignment": "A5",
+    "stage": 6,
+    "takeaways": [
+      "推理优化必须匹配真实输入输出长度、轮次间隔、缓存命中率和延迟目标，不能只看静态吞吐。",
+      "Megakernel 的价值在于细粒度地重叠内存、计算与通信，收益受到具体负载与实现成本限制。",
+      "Parcae 将循环深度作为参数和数据之外的计算维度，通过稳定参数化研究如何提高参数利用率。"
+    ],
+    "keywords": [
+      "推理服务",
+      "动机",
+      "推理引擎",
+      "计算图",
+      "请求分布",
+      "调度",
+      "Prefill",
+      "Decode",
+      "连续批处理",
+      "KV cache",
+      "PD 分离",
+      "可观测性",
+      "分层缓存",
+      "正确性",
+      "缓存预取",
+      "容错",
+      "CPD",
+      "megakernel",
+      "重叠执行",
+      "ThunderKittens",
+      "Parcae",
+      "循环 Transformer",
+      "训练稳定性",
+      "谱半径",
+      "扩展规律",
+      "残差",
+      "isoFLOP",
+      "数据预算",
+      "架构协同设计",
+      "推理内存",
+      "工程成本",
+      "硬件协同设计",
+      "多 GPU"
+    ],
+    "materials": [
+      {
+        "label": "官方视频",
+        "href": "https://www.youtube.com/watch?v=9EEm4iMAF5s&t=0s"
+      },
+      {
+        "label": "字幕镜像",
+        "href": "https://github.com/Young-Lord/cs336-2026-notes/blob/6acde390f44488492fae5bd359d9d8081c3b26ac/raw/transcripts/18-9EEm4iMAF5s.en-orig.vtt"
+      },
+      {
+        "label": "官方 Dan Fu 嘉宾视频",
+        "href": "https://www.youtube.com/watch?v=9EEm4iMAF5s"
+      },
+      {
+        "label": "研究团队原文：缓存感知 Prefill–Decode 分离",
+        "href": "https://www.together.ai/blog/cache-aware-disaggregated-inference"
+      },
+      {
+        "label": "研究团队原文：低延迟 Llama-1B Megakernel",
+        "href": "https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles"
+      },
+      {
+        "label": "ThunderKittens 官方代码",
+        "href": "https://github.com/HazyResearch/ThunderKittens"
+      },
+      {
+        "label": "Parcae 原论文：术语与稳定参数化核对",
+        "href": "https://arxiv.org/html/2604.12946v1"
+      }
+    ]
+  }
+]

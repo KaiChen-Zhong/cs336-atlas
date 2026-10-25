@@ -1,0 +1,1431 @@
+[
+  {
+    "id": "r001",
+    "priority": "P0",
+    "title": "2026 官方课程主页",
+    "url": "https://cs336.stanford.edu/",
+    "links": [
+      {
+        "label": "2026 官方课程主页",
+        "href": "https://cs336.stanford.edu/"
+      }
+    ],
+    "purpose": "年份、教学日程、作业与材料的主索引。学习主线固定 Spring 2026。",
+    "extra": "",
+    "category": "1. 先收藏这 6 个入口",
+    "section": "",
+    "raw": {
+      "优先级": "P0",
+      "资源": "[2026 官方课程主页](https://cs336.stanford.edu/)",
+      "用途与版本": "年份、教学日程、作业与材料的主索引。学习主线固定 Spring 2026。"
+    }
+  },
+  {
+    "id": "r002",
+    "priority": "P0",
+    "title": "2026 官方录像播放列表",
+    "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV",
+    "links": [
+      {
+        "label": "2026 官方录像播放列表",
+        "href": "https://www.youtube.com/playlist?list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV"
+      }
+    ],
+    "purpose": "由 2026 官网链接到 Stanford Online；逐段笔记的时间戳应指向这版对应视频。已实读18个公开视频：17讲正课＋Dan Fu嘉宾课，共24:09:56。",
+    "extra": "",
+    "category": "1. 先收藏这 6 个入口",
+    "section": "",
+    "raw": {
+      "优先级": "P0",
+      "资源": "[2026 官方录像播放列表](https://www.youtube.com/playlist?list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV)",
+      "用途与版本": "由 2026 官网链接到 Stanford Online；逐段笔记的时间戳应指向这版对应视频。已实读18个公开视频：17讲正课＋Dan Fu嘉宾课，共24:09:56。"
+    }
+  },
+  {
+    "id": "r003",
+    "priority": "P0",
+    "title": "2026 官方讲义与代码仓库",
+    "url": "https://github.com/stanford-cs336/lectures",
+    "links": [
+      {
+        "label": "2026 官方讲义与代码仓库",
+        "href": "https://github.com/stanford-cs336/lectures"
+      }
+    ],
+    "purpose": "可执行 Python 讲义、PDF 幻灯片、示例与环境配置。README 标 Spring 2026。",
+    "extra": "",
+    "category": "1. 先收藏这 6 个入口",
+    "section": "",
+    "raw": {
+      "优先级": "P0",
+      "资源": "[2026 官方讲义与代码仓库](https://github.com/stanford-cs336/lectures)",
+      "用途与版本": "可执行 Python 讲义、PDF 幻灯片、示例与环境配置。README 标 Spring 2026。"
+    }
+  },
+  {
+    "id": "r004",
+    "priority": "P0",
+    "title": "作业 1：Basics",
+    "url": "https://github.com/stanford-cs336/assignment1-basics/tree/main",
+    "links": [
+      {
+        "label": "作业 1：Basics",
+        "href": "https://github.com/stanford-cs336/assignment1-basics/tree/main"
+      }
+    ],
+    "purpose": "最先动手；分词器到训练循环。2026 官网使用此仓库，但 README 年份仍写 2025，见下文版本说明。",
+    "extra": "",
+    "category": "1. 先收藏这 6 个入口",
+    "section": "",
+    "raw": {
+      "优先级": "P0",
+      "资源": "[作业 1：Basics](https://github.com/stanford-cs336/assignment1-basics/tree/main)",
+      "用途与版本": "最先动手；分词器到训练循环。2026 官网使用此仓库，但 README 年份仍写 2025，见下文版本说明。"
+    }
+  },
+  {
+    "id": "r005",
+    "priority": "P1",
+    "title": "官方完整参考文献登记文件",
+    "url": "https://github.com/stanford-cs336/lectures/blob/main/references.py",
+    "links": [
+      {
+        "label": "官方完整参考文献登记文件",
+        "href": "https://github.com/stanford-cs336/lectures/blob/main/references.py"
+      }
+    ],
+    "purpose": "需要追论文、模型技术报告时在此搜索关键词；比先收集大量博客更省时。",
+    "extra": "",
+    "category": "1. 先收藏这 6 个入口",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[官方完整参考文献登记文件](https://github.com/stanford-cs336/lectures/blob/main/references.py)",
+      "用途与版本": "需要追论文、模型技术报告时在此搜索关键词；比先收集大量博客更省时。"
+    }
+  },
+  {
+    "id": "r006",
+    "priority": "P1",
+    "title": "Datawhale DIY-LLM 中文阅读站",
+    "url": "https://datawhalechina.github.io/diy-llm/",
+    "links": [
+      {
+        "label": "Datawhale DIY-LLM 中文阅读站",
+        "href": "https://datawhalechina.github.io/diy-llm/"
+      }
+    ],
+    "purpose": "中文概念预习、复习；社区改编，含额外章节与不同作业安排。",
+    "extra": "",
+    "category": "1. 先收藏这 6 个入口",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[Datawhale DIY-LLM 中文阅读站](https://datawhalechina.github.io/diy-llm/)",
+      "用途与版本": "中文概念预习、复习；社区改编，含额外章节与不同作业安排。"
+    }
+  },
+  {
+    "id": "r007",
+    "priority": "P0",
+    "title": "总览、Tokenization",
+    "url": "",
+    "links": [],
+    "purpose": "建立全课程地图，连接分词与作业 1。",
+    "extra": "L01",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L01",
+      "主题": "总览、Tokenization",
+      "官方材料": "[可执行讲义](https://cs336.stanford.edu/lectures/?trace=lecture_01)",
+      "快速学习用途": "建立全课程地图，连接分词与作业 1。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r008",
+    "priority": "P0",
+    "title": "PyTorch、einops、资源核算",
+    "url": "",
+    "links": [],
+    "purpose": "跟录像优先打开 recording 版，核对张量形状、显存与 FLOPs。",
+    "extra": "L02",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L02",
+      "主题": "PyTorch、einops、资源核算",
+      "官方材料": "[当前讲义](https://cs336.stanford.edu/lectures/?trace=lecture_02)；[录像对应版本](https://cs336.stanford.edu/lectures/?trace=lecture_02_recording)",
+      "快速学习用途": "跟录像优先打开 recording 版，核对张量形状、显存与 FLOPs。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r009",
+    "priority": "P0",
+    "title": "架构、超参数",
+    "url": "",
+    "links": [],
+    "purpose": "建立 Transformer 组件与训练超参数清单。",
+    "extra": "L03",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L03",
+      "主题": "架构、超参数",
+      "官方材料": "[PDF](https://github.com/stanford-cs336/lectures/blob/main/lecture_03.pdf)",
+      "快速学习用途": "建立 Transformer 组件与训练超参数清单。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r010",
+    "priority": "P0",
+    "title": "Attention 替代方案、MoE",
+    "url": "",
+    "links": [],
+    "purpose": "对照不同架构的计算、内存与质量取舍。",
+    "extra": "L04",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L04",
+      "主题": "Attention 替代方案、MoE",
+      "官方材料": "[PDF](https://github.com/stanford-cs336/lectures/blob/main/lecture_04.pdf)",
+      "快速学习用途": "对照不同架构的计算、内存与质量取舍。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r011",
+    "priority": "P0",
+    "title": "GPU、TPU",
+    "url": "",
+    "links": [],
+    "purpose": "给后续 kernel 与并行课补硬件背景。",
+    "extra": "L05",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L05",
+      "主题": "GPU、TPU",
+      "官方材料": "[PDF](https://github.com/stanford-cs336/lectures/blob/main/lecture_05.pdf)",
+      "快速学习用途": "给后续 kernel 与并行课补硬件背景。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r012",
+    "priority": "P0",
+    "title": "Kernels、Triton",
+    "url": "",
+    "links": [],
+    "purpose": "看代码与测时演示，连接作业 2。",
+    "extra": "L06",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L06",
+      "主题": "Kernels、Triton",
+      "官方材料": "[可执行讲义](https://cs336.stanford.edu/lectures/?trace=lecture_06)",
+      "快速学习用途": "看代码与测时演示，连接作业 2。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r013",
+    "priority": "P0",
+    "title": "Parallelism，Percy",
+    "url": "",
+    "links": [],
+    "purpose": "跟随并行程序示例。",
+    "extra": "L07",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L07",
+      "主题": "Parallelism，Percy",
+      "官方材料": "[可执行讲义](https://cs336.stanford.edu/lectures/?trace=lecture_07)",
+      "快速学习用途": "跟随并行程序示例。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r014",
+    "priority": "P0",
+    "title": "Parallelism，Tatsu",
+    "url": "",
+    "links": [],
+    "purpose": "与 L07 配套梳理并行训练。",
+    "extra": "L08",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L08",
+      "主题": "Parallelism，Tatsu",
+      "官方材料": "[PDF](https://github.com/stanford-cs336/lectures/blob/main/lecture_08.pdf)",
+      "快速学习用途": "与 L07 配套梳理并行训练。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r015",
+    "priority": "P0",
+    "title": "Scaling laws I",
+    "url": "",
+    "links": [],
+    "purpose": "为作业 3 建立缩放实验思路。",
+    "extra": "L09",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L09",
+      "主题": "Scaling laws I",
+      "官方材料": "[PDF](https://github.com/stanford-cs336/lectures/blob/main/lecture_09.pdf)",
+      "快速学习用途": "为作业 3 建立缩放实验思路。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r016",
+    "priority": "P0",
+    "title": "Inference",
+    "url": "",
+    "links": [],
+    "purpose": "将训练资源核算迁移到生成与服务。",
+    "extra": "L10",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L10",
+      "主题": "Inference",
+      "官方材料": "[可执行讲义](https://cs336.stanford.edu/lectures/?trace=lecture_10)",
+      "快速学习用途": "将训练资源核算迁移到生成与服务。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r017",
+    "priority": "P0",
+    "title": "Scaling laws II",
+    "url": "",
+    "links": [],
+    "purpose": "补充缩放定律与实验分析。",
+    "extra": "L11",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L11",
+      "主题": "Scaling laws II",
+      "官方材料": "[PDF](https://github.com/stanford-cs336/lectures/blob/main/lecture_11.pdf)",
+      "快速学习用途": "补充缩放定律与实验分析。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r018",
+    "priority": "P0",
+    "title": "Evaluation",
+    "url": "",
+    "links": [],
+    "purpose": "先明确评什么，再读模型分数和排行榜。",
+    "extra": "L12",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L12",
+      "主题": "Evaluation",
+      "官方材料": "[可执行讲义](https://cs336.stanford.edu/lectures/?trace=lecture_12)",
+      "快速学习用途": "先明确评什么，再读模型分数和排行榜。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r019",
+    "priority": "P0",
+    "title": "数据来源与数据集",
+    "url": "",
+    "links": [],
+    "purpose": "建立数据来源分类，为作业 4 选数据。",
+    "extra": "L13",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L13",
+      "主题": "数据来源与数据集",
+      "官方材料": "[可执行讲义](https://cs336.stanford.edu/lectures/?trace=lecture_13)",
+      "快速学习用途": "建立数据来源分类，为作业 4 选数据。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r020",
+    "priority": "P0",
+    "title": "过滤、去重、混合、合成数据",
+    "url": "",
+    "links": [],
+    "purpose": "对应数据流水线与消融实验。",
+    "extra": "L14",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L14",
+      "主题": "过滤、去重、混合、合成数据",
+      "官方材料": "[可执行讲义](https://cs336.stanford.edu/lectures/?trace=lecture_14)",
+      "快速学习用途": "对应数据流水线与消融实验。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r021",
+    "priority": "P0",
+    "title": "Mid/Post-training，SFT/RLHF",
+    "url": "",
+    "links": [],
+    "purpose": "建立预训练之后的训练阶段地图。",
+    "extra": "L15",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L15",
+      "主题": "Mid/Post-training，SFT/RLHF",
+      "官方材料": "[PDF](https://github.com/stanford-cs336/lectures/blob/main/lecture_15.pdf)",
+      "快速学习用途": "建立预训练之后的训练阶段地图。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r022",
+    "priority": "P0",
+    "title": "Post-training，RLVR",
+    "url": "",
+    "links": [],
+    "purpose": "连接可验证奖励与作业 5。",
+    "extra": "L16",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L16",
+      "主题": "Post-training，RLVR",
+      "官方材料": "[PDF](https://github.com/stanford-cs336/lectures/blob/main/lecture_16.pdf)",
+      "快速学习用途": "连接可验证奖励与作业 5。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r023",
+    "priority": "P0",
+    "title": "Alignment、Multimodality",
+    "url": "",
+    "links": [],
+    "purpose": "2026 后半段的重要更新，勿用 2025 同号讲义替代。",
+    "extra": "L17",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L17",
+      "主题": "Alignment、Multimodality",
+      "官方材料": "[可执行讲义](https://cs336.stanford.edu/lectures/?trace=lecture_17)",
+      "快速学习用途": "2026 后半段的重要更新，勿用 2025 同号讲义替代。",
+      "优先级": "P0"
+    }
+  },
+  {
+    "id": "r024",
+    "priority": "P1",
+    "title": "嘉宾 Daniel Selsam",
+    "url": "",
+    "links": [],
+    "purpose": "日程有列出，官网未列单独课件；当前官方播放列表未发现对应录像。",
+    "extra": "L18",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L18",
+      "主题": "嘉宾 Daniel Selsam",
+      "官方材料": "[官网日程](https://cs336.stanford.edu/)",
+      "快速学习用途": "日程有列出，官网未列单独课件；当前官方播放列表未发现对应录像。",
+      "优先级": "P1"
+    }
+  },
+  {
+    "id": "r025",
+    "priority": "P1",
+    "title": "嘉宾 Dan Fu",
+    "url": "",
+    "links": [],
+    "purpose": "已在官方播放列表核验Dan Fu嘉宾视频，为列表第18项；官网未列单独课件。",
+    "extra": "L19",
+    "category": "2. 2026 官方逐讲材料",
+    "section": "",
+    "raw": {
+      "讲次": "L19",
+      "主题": "嘉宾 Dan Fu",
+      "官方材料": "[官网日程](https://cs336.stanford.edu/)",
+      "快速学习用途": "已在官方播放列表核验Dan Fu嘉宾视频，为列表第18项；官网未列单独课件。",
+      "优先级": "P1"
+    }
+  },
+  {
+    "id": "r026",
+    "priority": "P0",
+    "title": "A1 Basics",
+    "url": "",
+    "links": [],
+    "purpose": "自己实现分词、模型、优化与训练，跑出小语言模型。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "",
+    "raw": {
+      "优先级": "P0",
+      "模块": "A1 Basics",
+      "官方资源": "[代码](https://github.com/stanford-cs336/assignment1-basics/tree/main) · [题面 PDF](https://github.com/stanford-cs336/assignment1-basics/blob/main/cs336_assignment1_basics.pdf)",
+      "应得到的成果": "自己实现分词、模型、优化与训练，跑出小语言模型。",
+      "自学切入点": "CPU 跑测试；TinyStories 小样本检查训练损失与生成。"
+    }
+  },
+  {
+    "id": "r027",
+    "priority": "P0",
+    "title": "A2 Systems",
+    "url": "",
+    "links": [],
+    "purpose": "profile、benchmark、Triton Attention、显存优化与分布式训练。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "",
+    "raw": {
+      "优先级": "P0",
+      "模块": "A2 Systems",
+      "官方资源": "[代码](https://github.com/stanford-cs336/assignment2-systems/tree/main) · [题面 PDF](https://github.com/stanford-cs336/assignment2-systems/blob/main/cs336_assignment2_systems.pdf)",
+      "应得到的成果": "profile、benchmark、Triton Attention、显存优化与分布式训练。",
+      "自学切入点": "先保证输出与梯度一致，再比较耗时；仓库含 A1 教师实现，可按题面复用。"
+    }
+  },
+  {
+    "id": "r028",
+    "priority": "P0",
+    "title": "A3 Scaling",
+    "url": "",
+    "links": [],
+    "purpose": "设计缩放实验、记录损失、拟合规律与外推。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "",
+    "raw": {
+      "优先级": "P0",
+      "模块": "A3 Scaling",
+      "官方资源": "[代码与非学生说明](https://github.com/stanford-cs336/assignment3-scaling/tree/main) · [题面 PDF](https://github.com/stanford-cs336/assignment3-scaling/blob/main/cs336_assignment3_scaling.pdf)",
+      "应得到的成果": "设计缩放实验、记录损失、拟合规律与外推。",
+      "自学切入点": "非学生先走 README 的直接训练路径；不要把托管 API 当作无门槛公共服务。"
+    }
+  },
+  {
+    "id": "r029",
+    "priority": "P0",
+    "title": "A4 Data",
+    "url": "",
+    "links": [],
+    "purpose": "网页文本提取、过滤、去重及数据质量实验。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "",
+    "raw": {
+      "优先级": "P0",
+      "模块": "A4 Data",
+      "官方资源": "[代码与数据说明](https://github.com/stanford-cs336/assignment4-data/tree/main) · [题面 PDF](https://github.com/stanford-cs336/assignment4-data/blob/main/cs336_assignment4_data.pdf)",
+      "应得到的成果": "网页文本提取、过滤、去重及数据质量实验。",
+      "自学切入点": "先 `--offline-only`；再处理少量 WET 文件，检查过滤前后样本。"
+    }
+  },
+  {
+    "id": "r030",
+    "priority": "P0",
+    "title": "A5 Alignment",
+    "url": "",
+    "links": [],
+    "purpose": "用 SFT 与强化学习训练数学推理，理解奖励与更新。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "",
+    "raw": {
+      "优先级": "P0",
+      "模块": "A5 Alignment",
+      "官方资源": "[代码](https://github.com/stanford-cs336/assignment5-alignment/tree/main) · [2026 题面 PDF](https://github.com/stanford-cs336/assignment5-alignment/blob/main/cs336_spring2026_assignment5_alignment.pdf)",
+      "应得到的成果": "用 SFT 与强化学习训练数学推理，理解奖励与更新。",
+      "自学切入点": "先跑 `tests/test_grpo.py` 所需接口，分开验证采样、奖励与训练逻辑。"
+    }
+  },
+  {
+    "id": "r031",
+    "priority": "P1",
+    "title": "A5 可选安全对齐",
+    "url": "",
+    "links": [],
+    "purpose": "指令微调、安全对齐、RLHF/DPO 扩展。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "模块": "A5 可选安全对齐",
+      "官方资源": "[2026 补充 PDF](https://github.com/stanford-cs336/assignment5-alignment/blob/main/cs336_spring2026_assignment5_supplement_safety_rlhf.pdf)",
+      "应得到的成果": "指令微调、安全对齐、RLHF/DPO 扩展。",
+      "自学切入点": "在主线 A5 后学；它属于选做材料。"
+    }
+  },
+  {
+    "id": "r032",
+    "priority": "P0",
+    "title": "A1 tests 与 adapters",
+    "url": "https://github.com/stanford-cs336/assignment1-basics/tree/main/tests",
+    "links": [
+      {
+        "label": "A1 tests 与 adapters",
+        "href": "https://github.com/stanford-cs336/assignment1-basics/tree/main/tests"
+      }
+    ],
+    "purpose": "官方接口与数值正确性的直接参照；README 命令为 `uv run pytest`。测试通过后仍需看训练曲线和样本。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "3.1 测试、勘误、榜单",
+    "raw": {
+      "优先级": "P0",
+      "资源": "[A1 tests 与 adapters](https://github.com/stanford-cs336/assignment1-basics/tree/main/tests)",
+      "用途与边界": "官方接口与数值正确性的直接参照；README 命令为 `uv run pytest`。测试通过后仍需看训练曲线和样本。"
+    }
+  },
+  {
+    "id": "r033",
+    "priority": "P0",
+    "title": "A1 Issues",
+    "url": "https://github.com/stanford-cs336/assignment1-basics/issues",
+    "links": [
+      {
+        "label": "A1 Issues",
+        "href": "https://github.com/stanford-cs336/assignment1-basics/issues"
+      }
+    ],
+    "purpose": "遇到形状说明、依赖或平台差异，先查官方仓库已有问题与修订。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "3.1 测试、勘误、榜单",
+    "raw": {
+      "优先级": "P0",
+      "资源": "[A1 Issues](https://github.com/stanford-cs336/assignment1-basics/issues)；其余作业仓库的 Issues / CHANGELOG",
+      "用途与边界": "遇到形状说明、依赖或平台差异，先查官方仓库已有问题与修订。"
+    }
+  },
+  {
+    "id": "r034",
+    "priority": "P1",
+    "title": "A1 官方榜单",
+    "url": "https://github.com/stanford-cs336/assignment1-basics-leaderboard",
+    "links": [
+      {
+        "label": "A1 官方榜单",
+        "href": "https://github.com/stanford-cs336/assignment1-basics-leaderboard"
+      }
+    ],
+    "purpose": "学习实验记录与公平预算。2026 条件为单张 B200、45 分钟；旧版另有 H100 表，不能直接混比。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "3.1 测试、勘误、榜单",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[A1 官方榜单](https://github.com/stanford-cs336/assignment1-basics-leaderboard)",
+      "用途与边界": "学习实验记录与公平预算。2026 条件为单张 B200、45 分钟；旧版另有 H100 表，不能直接混比。"
+    }
+  },
+  {
+    "id": "r035",
+    "priority": "P1",
+    "title": "A2 官方榜单",
+    "url": "https://github.com/stanford-cs336/assignment2-systems-leaderboard",
+    "links": [
+      {
+        "label": "A2 官方榜单",
+        "href": "https://github.com/stanford-cs336/assignment2-systems-leaderboard"
+      }
+    ],
+    "purpose": "2026 比较 8B 模型完整训练步、两张 B200；2025 表比较单张 H100 的 FlashAttention 前后向。任务本身已变。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "3.1 测试、勘误、榜单",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[A2 官方榜单](https://github.com/stanford-cs336/assignment2-systems-leaderboard)",
+      "用途与边界": "2026 比较 8B 模型完整训练步、两张 B200；2025 表比较单张 H100 的 FlashAttention 前后向。任务本身已变。"
+    }
+  },
+  {
+    "id": "r036",
+    "priority": "P2",
+    "title": "A4 历史榜单",
+    "url": "https://github.com/stanford-cs336/assignment4-data-leaderboard",
+    "links": [
+      {
+        "label": "A4 历史榜单",
+        "href": "https://github.com/stanford-cs336/assignment4-data-leaderboard"
+      }
+    ],
+    "purpose": "页面标 Spring 2025；只作历史实验参考，不称为 2026 榜单。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "3.1 测试、勘误、榜单",
+    "raw": {
+      "优先级": "P2",
+      "资源": "[A4 历史榜单](https://github.com/stanford-cs336/assignment4-data-leaderboard)",
+      "用途与边界": "页面标 Spring 2025；只作历史实验参考，不称为 2026 榜单。"
+    }
+  },
+  {
+    "id": "r037",
+    "priority": "P0",
+    "title": "TinyStories 数据卡",
+    "url": "https://huggingface.co/datasets/roneneldan/TinyStories",
+    "links": [
+      {
+        "label": "TinyStories 数据卡",
+        "href": "https://huggingface.co/datasets/roneneldan/TinyStories"
+      }
+    ],
+    "purpose": "A1 小规模语言建模；具体文件以 A1 README 指定的 GPT4 train/valid 为准。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "3.2 公共数据与自学权限",
+    "raw": {
+      "优先级": "P0",
+      "资源": "[TinyStories 数据卡](https://huggingface.co/datasets/roneneldan/TinyStories)",
+      "用途与边界": "A1 小规模语言建模；具体文件以 A1 README 指定的 GPT4 train/valid 为准。"
+    }
+  },
+  {
+    "id": "r038",
+    "priority": "P0",
+    "title": "CS336 OpenWebText 子样本",
+    "url": "https://huggingface.co/datasets/stanford-cs336/owt-sample",
+    "links": [
+      {
+        "label": "CS336 OpenWebText 子样本",
+        "href": "https://huggingface.co/datasets/stanford-cs336/owt-sample"
+      }
+    ],
+    "purpose": "A1 训练/验证及榜单数据；训练集和验证集分开使用。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "3.2 公共数据与自学权限",
+    "raw": {
+      "优先级": "P0",
+      "资源": "[CS336 OpenWebText 子样本](https://huggingface.co/datasets/stanford-cs336/owt-sample)",
+      "用途与边界": "A1 训练/验证及榜单数据；训练集和验证集分开使用。"
+    }
+  },
+  {
+    "id": "r039",
+    "priority": "P1",
+    "title": "Common Crawl 入门",
+    "url": "https://commoncrawl.org/get-started",
+    "links": [
+      {
+        "label": "Common Crawl 入门",
+        "href": "https://commoncrawl.org/get-started"
+      }
+    ],
+    "purpose": "A4 原始网页语料背景；理解 WARC/WAT/WET 的角色后再下载。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "3.2 公共数据与自学权限",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[Common Crawl 入门](https://commoncrawl.org/get-started)",
+      "用途与边界": "A4 原始网页语料背景；理解 WARC/WAT/WET 的角色后再下载。"
+    }
+  },
+  {
+    "id": "r040",
+    "priority": "P0",
+    "title": "A3 非学生路径",
+    "url": "https://github.com/stanford-cs336/assignment3-scaling#for-non-students",
+    "links": [
+      {
+        "label": "A3 非学生路径",
+        "href": "https://github.com/stanford-cs336/assignment3-scaling#for-non-students"
+      }
+    ],
+    "purpose": "官方提供下载数据、直接运行训练和自建 API 的路线。学校托管 API 的 README 认证方式关联学生 ID；公开代码不等于公共额度。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "3.2 公共数据与自学权限",
+    "raw": {
+      "优先级": "P0",
+      "资源": "[A3 非学生路径](https://github.com/stanford-cs336/assignment3-scaling#for-non-students)",
+      "用途与边界": "官方提供下载数据、直接运行训练和自建 API 的路线。学校托管 API 的 README 认证方式关联学生 ID；公开代码不等于公共额度。"
+    }
+  },
+  {
+    "id": "r041",
+    "priority": "P0",
+    "title": "A4 非学生路径",
+    "url": "https://github.com/stanford-cs336/assignment4-data#for-non-students",
+    "links": [
+      {
+        "label": "A4 非学生路径",
+        "href": "https://github.com/stanford-cs336/assignment4-data#for-non-students"
+      }
+    ],
+    "purpose": "先离线文件；下载全量前需实现 `is_english`，可减少 WET 文件数。最终官方 Modal 训练配置使用 8 张 B200，学习过滤逻辑不必立即跑到此规模。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "3.2 公共数据与自学权限",
+    "raw": {
+      "优先级": "P0",
+      "资源": "[A4 非学生路径](https://github.com/stanford-cs336/assignment4-data#for-non-students)",
+      "用途与边界": "先离线文件；下载全量前需实现 `is_english`，可减少 WET 文件数。最终官方 Modal 训练配置使用 8 张 B200，学习过滤逻辑不必立即跑到此规模。"
+    }
+  },
+  {
+    "id": "r042",
+    "priority": "P1",
+    "title": "2026 官方自学算力说明",
+    "url": "https://cs336.stanford.edu/#coursework",
+    "links": [
+      {
+        "label": "2026 官方自学算力说明",
+        "href": "https://cs336.stanford.edu/#coursework"
+      }
+    ],
+    "purpose": "官方建议先 CPU 检查正确性，再上 GPU 训练或测时。页面价格是带日期的历史快照；实际费用查看供应商当日页面。",
+    "extra": "",
+    "category": "3. 2026 作业、代码、测试与数据",
+    "section": "3.2 公共数据与自学权限",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[2026 官方自学算力说明](https://cs336.stanford.edu/#coursework)",
+      "用途与边界": "官方建议先 CPU 检查正确性，再上 GPU 训练或测时。页面价格是带日期的历史快照；实际费用查看供应商当日页面。"
+    }
+  },
+  {
+    "id": "r043",
+    "priority": "P1",
+    "title": "Python 官方教程",
+    "url": "https://docs.python.org/3/tutorial/",
+    "links": [
+      {
+        "label": "Python 官方教程",
+        "href": "https://docs.python.org/3/tutorial/"
+      }
+    ],
+    "purpose": "Python 函数、迭代器、模块、异常处理不熟。",
+    "extra": "数据结构、函数、模块、类与异常。",
+    "category": "4. 先修与工具文档：缺什么补什么",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[Python 官方教程](https://docs.python.org/3/tutorial/)",
+      "什么时候打开": "Python 函数、迭代器、模块、异常处理不熟。",
+      "先读范围": "数据结构、函数、模块、类与异常。"
+    }
+  },
+  {
+    "id": "r044",
+    "priority": "P1",
+    "title": "PyTorch Learn the Basics",
+    "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+    "links": [
+      {
+        "label": "PyTorch Learn the Basics",
+        "href": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html"
+      }
+    ],
+    "purpose": "L02 或 A1 卡在 tensor/autograd。",
+    "extra": "Tensors、Autograd、Optimization、Save/Load。",
+    "category": "4. 先修与工具文档：缺什么补什么",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[PyTorch Learn the Basics](https://docs.pytorch.org/tutorials/beginner/basics/intro.html)",
+      "什么时候打开": "L02 或 A1 卡在 tensor/autograd。",
+      "先读范围": "Tensors、Autograd、Optimization、Save/Load。"
+    }
+  },
+  {
+    "id": "r045",
+    "priority": "P1",
+    "title": "einops 官方教程",
+    "url": "https://einops.rocks/1-einops-basics/",
+    "links": [
+      {
+        "label": "einops 官方教程",
+        "href": "https://einops.rocks/1-einops-basics/"
+      }
+    ],
+    "purpose": "多头 Attention 的轴拆分/合并看不懂。",
+    "extra": "`rearrange`、`reduce`、`repeat`，对照每一步形状。",
+    "category": "4. 先修与工具文档：缺什么补什么",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[einops 官方教程](https://einops.rocks/1-einops-basics/)",
+      "什么时候打开": "多头 Attention 的轴拆分/合并看不懂。",
+      "先读范围": "`rearrange`、`reduce`、`repeat`，对照每一步形状。"
+    }
+  },
+  {
+    "id": "r046",
+    "priority": "P1",
+    "title": "uv 官方文档",
+    "url": "https://docs.astral.sh/uv/",
+    "links": [
+      {
+        "label": "uv 官方文档",
+        "href": "https://docs.astral.sh/uv/"
+      }
+    ],
+    "purpose": "配作业环境与运行命令。",
+    "extra": "project、`uv sync`、`uv run`；依赖版本优先遵守该作业的锁文件。",
+    "category": "4. 先修与工具文档：缺什么补什么",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[uv 官方文档](https://docs.astral.sh/uv/)",
+      "什么时候打开": "配作业环境与运行命令。",
+      "先读范围": "project、`uv sync`、`uv run`；依赖版本优先遵守该作业的锁文件。"
+    }
+  },
+  {
+    "id": "r047",
+    "priority": "P1",
+    "title": "Triton 官方教程",
+    "url": "https://triton-lang.org/main/getting-started/tutorials/index.html",
+    "links": [
+      {
+        "label": "Triton 官方教程",
+        "href": "https://triton-lang.org/main/getting-started/tutorials/index.html"
+      }
+    ],
+    "purpose": "L06/A2 需要编写 GPU kernel。",
+    "extra": "Vector Addition → Fused Softmax → Matrix Multiplication；Attention 参考实现阅读遵守作业允许范围。",
+    "category": "4. 先修与工具文档：缺什么补什么",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[Triton 官方教程](https://triton-lang.org/main/getting-started/tutorials/index.html)",
+      "什么时候打开": "L06/A2 需要编写 GPU kernel。",
+      "先读范围": "Vector Addition → Fused Softmax → Matrix Multiplication；Attention 参考实现阅读遵守作业允许范围。"
+    }
+  },
+  {
+    "id": "r048",
+    "priority": "P1",
+    "title": "NVIDIA Nsight Systems 用户指南",
+    "url": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
+    "links": [
+      {
+        "label": "NVIDIA Nsight Systems 用户指南",
+        "href": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html"
+      }
+    ],
+    "purpose": "看不清 CPU/GPU 空闲、kernel 启动或通信耗时。",
+    "extra": "先学一次采集和时间线阅读，再查高级选项。",
+    "category": "4. 先修与工具文档：缺什么补什么",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[NVIDIA Nsight Systems 用户指南](https://docs.nvidia.com/nsight-systems/UserGuide/index.html)",
+      "什么时候打开": "看不清 CPU/GPU 空闲、kernel 启动或通信耗时。",
+      "先读范围": "先学一次采集和时间线阅读，再查高级选项。"
+    }
+  },
+  {
+    "id": "r049",
+    "priority": "P1",
+    "title": "PyTorch DDP 教程",
+    "url": "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html",
+    "links": [
+      {
+        "label": "PyTorch DDP 教程",
+        "href": "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html"
+      }
+    ],
+    "purpose": "L07/L08/A2 的多进程、通信与梯度同步。",
+    "extra": "最小 DDP 示例及常见使用约束。",
+    "category": "4. 先修与工具文档：缺什么补什么",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[PyTorch DDP 教程](https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html)",
+      "什么时候打开": "L07/L08/A2 的多进程、通信与梯度同步。",
+      "先读范围": "最小 DDP 示例及常见使用约束。"
+    }
+  },
+  {
+    "id": "r050",
+    "priority": "P1",
+    "title": "vLLM 官方文档",
+    "url": "https://docs.vllm.ai/en/latest/",
+    "links": [
+      {
+        "label": "vLLM 官方文档",
+        "href": "https://docs.vllm.ai/en/latest/"
+      }
+    ],
+    "purpose": "L10 或 A5 要理解/运行高效生成。",
+    "extra": "Quickstart、推理接口及与作业版本对应的 API。",
+    "category": "4. 先修与工具文档：缺什么补什么",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[vLLM 官方文档](https://docs.vllm.ai/en/latest/)",
+      "什么时候打开": "L10 或 A5 要理解/运行高效生成。",
+      "先读范围": "Quickstart、推理接口及与作业版本对应的 API。"
+    }
+  },
+  {
+    "id": "r051",
+    "priority": "P1",
+    "title": "Stanford CS224N",
+    "url": "https://web.stanford.edu/class/cs224n/",
+    "links": [
+      {
+        "label": "Stanford CS224N",
+        "href": "https://web.stanford.edu/class/cs224n/"
+      }
+    ],
+    "purpose": "对词向量、语言建模、Attention、Transformer 缺整体背景。",
+    "extra": "按概念找对应讲义；无需整门补完。",
+    "category": "4. 先修与工具文档：缺什么补什么",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[Stanford CS224N](https://web.stanford.edu/class/cs224n/)",
+      "什么时候打开": "对词向量、语言建模、Attention、Transformer 缺整体背景。",
+      "先读范围": "按概念找对应讲义；无需整门补完。"
+    }
+  },
+  {
+    "id": "r052",
+    "priority": "P1",
+    "title": "Karpathy：Neural Networks Zero to Hero",
+    "url": "https://github.com/karpathy/nn-zero-to-hero",
+    "links": [
+      {
+        "label": "Karpathy：Neural Networks Zero to Hero",
+        "href": "https://github.com/karpathy/nn-zero-to-hero"
+      }
+    ],
+    "purpose": "想先手写反向传播或小 GPT，降低 A1 门槛。",
+    "extra": "micrograd / makemore / GPT 相关章节；作者一手视频与 notebook。",
+    "category": "4. 先修与工具文档：缺什么补什么",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[Karpathy：Neural Networks Zero to Hero](https://github.com/karpathy/nn-zero-to-hero)",
+      "什么时候打开": "想先手写反向传播或小 GPT，降低 A1 门槛。",
+      "先读范围": "micrograd / makemore / GPT 相关章节；作者一手视频与 notebook。"
+    }
+  },
+  {
+    "id": "r053",
+    "priority": "P2",
+    "title": "Raschka：LLMs from Scratch 作者仓库",
+    "url": "https://github.com/rasbt/LLMs-from-scratch",
+    "links": [
+      {
+        "label": "Raschka：LLMs from Scratch 作者仓库",
+        "href": "https://github.com/rasbt/LLMs-from-scratch"
+      }
+    ],
+    "purpose": "希望获得比 CS336 更渐进的搭建顺序。",
+    "extra": "Tokenizer、Attention、GPT、预训练章节；独立教材，与作业接口不同。",
+    "category": "4. 先修与工具文档：缺什么补什么",
+    "section": "",
+    "raw": {
+      "优先级": "P2",
+      "资源": "[Raschka：LLMs from Scratch 作者仓库](https://github.com/rasbt/LLMs-from-scratch)",
+      "什么时候打开": "希望获得比 CS336 更渐进的搭建顺序。",
+      "先读范围": "Tokenizer、Attention、GPT、预训练章节；独立教材，与作业接口不同。"
+    }
+  },
+  {
+    "id": "r054",
+    "priority": "P1",
+    "title": "Transformer",
+    "url": "",
+    "links": [],
+    "purpose": "Attention 的计算图和张量关系；区分原始 Transformer 与课程现代 decoder 配置。",
+    "extra": "Transformer",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "对应模块": "Transformer",
+      "原始资源": "[Attention Is All You Need](https://arxiv.org/abs/1706.03762)",
+      "先解决的问题": "Attention 的计算图和张量关系；区分原始 Transformer 与课程现代 decoder 配置。"
+    }
+  },
+  {
+    "id": "r055",
+    "priority": "P1",
+    "title": "GPU/Attention",
+    "url": "",
+    "links": [],
+    "purpose": "为什么工作划分、并行度与减少非矩阵乘操作会影响性能。",
+    "extra": "GPU/Attention",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "对应模块": "GPU/Attention",
+      "原始资源": "[FlashAttention-2](https://arxiv.org/abs/2307.08691)",
+      "先解决的问题": "为什么工作划分、并行度与减少非矩阵乘操作会影响性能。"
+    }
+  },
+  {
+    "id": "r056",
+    "priority": "P1",
+    "title": "并行训练",
+    "url": "",
+    "links": [],
+    "purpose": "参数、梯度、优化器状态如何分片。",
+    "extra": "并行训练",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "对应模块": "并行训练",
+      "原始资源": "[ZeRO](https://arxiv.org/abs/1910.02054)",
+      "先解决的问题": "参数、梯度、优化器状态如何分片。"
+    }
+  },
+  {
+    "id": "r057",
+    "priority": "P1",
+    "title": "Scaling",
+    "url": "",
+    "links": [],
+    "purpose": "参数量、数据量和算力如何影响损失。",
+    "extra": "Scaling",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "对应模块": "Scaling",
+      "原始资源": "[Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)",
+      "先解决的问题": "参数量、数据量和算力如何影响损失。"
+    }
+  },
+  {
+    "id": "r058",
+    "priority": "P1",
+    "title": "Scaling",
+    "url": "",
+    "links": [],
+    "purpose": "固定训练算力时，参数和 token 应如何分配。",
+    "extra": "Scaling",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "对应模块": "Scaling",
+      "原始资源": "[Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556)",
+      "先解决的问题": "固定训练算力时，参数和 token 应如何分配。"
+    }
+  },
+  {
+    "id": "r059",
+    "priority": "P1",
+    "title": "推理",
+    "url": "",
+    "links": [],
+    "purpose": "KV cache 管理如何影响批量推理吞吐。",
+    "extra": "推理",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "对应模块": "推理",
+      "原始资源": "[PagedAttention / vLLM 论文](https://arxiv.org/abs/2309.06180)",
+      "先解决的问题": "KV cache 管理如何影响批量推理吞吐。"
+    }
+  },
+  {
+    "id": "r060",
+    "priority": "P1",
+    "title": "数据",
+    "url": "",
+    "links": [],
+    "purpose": "如何把数据筛选变成可比较的实验。",
+    "extra": "数据",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "对应模块": "数据",
+      "原始资源": "[DataComp-LM](https://arxiv.org/abs/2406.11794)",
+      "先解决的问题": "如何把数据筛选变成可比较的实验。"
+    }
+  },
+  {
+    "id": "r061",
+    "priority": "P1",
+    "title": "MoE/现代架构",
+    "url": "",
+    "links": [],
+    "purpose": "连接 MoE、MLA、负载均衡与训练系统。",
+    "extra": "MoE/现代架构",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "对应模块": "MoE/现代架构",
+      "原始资源": "[DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437)",
+      "先解决的问题": "连接 MoE、MLA、负载均衡与训练系统。"
+    }
+  },
+  {
+    "id": "r062",
+    "priority": "P1",
+    "title": "偏好对齐",
+    "url": "",
+    "links": [],
+    "purpose": "偏好数据如何转化为优化目标。",
+    "extra": "偏好对齐",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "对应模块": "偏好对齐",
+      "原始资源": "[Direct Preference Optimization](https://arxiv.org/abs/2305.18290)",
+      "先解决的问题": "偏好数据如何转化为优化目标。"
+    }
+  },
+  {
+    "id": "r063",
+    "priority": "P1",
+    "title": "推理 RL",
+    "url": "",
+    "links": [],
+    "purpose": "GRPO 的方法来源与数学训练背景。",
+    "extra": "推理 RL",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "对应模块": "推理 RL",
+      "原始资源": "[DeepSeekMath](https://arxiv.org/abs/2402.03300)",
+      "先解决的问题": "GRPO 的方法来源与数学训练背景。"
+    }
+  },
+  {
+    "id": "r064",
+    "priority": "P1",
+    "title": "推理 RL",
+    "url": "",
+    "links": [],
+    "purpose": "将 RL、冷启动数据、蒸馏等训练阶段放在同一图里。",
+    "extra": "推理 RL",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "对应模块": "推理 RL",
+      "原始资源": "[DeepSeek-R1](https://arxiv.org/abs/2501.12948)",
+      "先解决的问题": "将 RL、冷启动数据、蒸馏等训练阶段放在同一图里。"
+    }
+  },
+  {
+    "id": "r065",
+    "priority": "P1",
+    "title": "评测实践",
+    "url": "",
+    "links": [],
+    "purpose": "查看公开任务、prompt、答案抽取与指标实现，跑小规模可复现评测。",
+    "extra": "评测实践",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "对应模块": "评测实践",
+      "原始资源": "[EleutherAI LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness)",
+      "先解决的问题": "查看公开任务、prompt、答案抽取与指标实现，跑小规模可复现评测。"
+    }
+  },
+  {
+    "id": "r066",
+    "priority": "P2",
+    "title": "评测方法",
+    "url": "",
+    "links": [],
+    "purpose": "理解多维度评测及检查具体模型回答。仓库说明自 2026-06-01 进入维护模式，适合读方法和复现实验。",
+    "extra": "评测方法",
+    "category": "5. 论文、技术报告与评测",
+    "section": "",
+    "raw": {
+      "优先级": "P2",
+      "对应模块": "评测方法",
+      "原始资源": "[Stanford HELM](https://github.com/stanford-crfm/helm)",
+      "先解决的问题": "理解多维度评测及检查具体模型回答。仓库说明自 2026-06-01 进入维护模式，适合读方法和复现实验。"
+    }
+  },
+  {
+    "id": "r067",
+    "priority": "P1",
+    "title": "Datawhale DIY-LLM 仓库",
+    "url": "https://github.com/datawhalechina/diy-llm",
+    "links": [
+      {
+        "label": "Datawhale DIY-LLM 仓库",
+        "href": "https://github.com/datawhalechina/diy-llm"
+      },
+      {
+        "label": "在线阅读",
+        "href": "https://datawhalechina.github.io/diy-llm/"
+      },
+      {
+        "label": "版本发布记录",
+        "href": "https://github.com/datawhalechina/diy-llm/releases"
+      }
+    ],
+    "purpose": "中文系统教程；最初基于 2025，V0.2（2026-08-17）声明增补 2026 内容，含多模态、架构、MoE 等。",
+    "extra": "",
+    "category": "6. 中文辅助：与官方分开使用",
+    "section": "",
+    "raw": {
+      "优先级": "P1",
+      "资源": "[Datawhale DIY-LLM 仓库](https://github.com/datawhalechina/diy-llm) · [在线阅读](https://datawhalechina.github.io/diy-llm/) · [版本发布记录](https://github.com/datawhalechina/diy-llm/releases)",
+      "版本与用途": "中文系统教程；最初基于 2025，V0.2（2026-08-17）声明增补 2026 内容，含多模态、架构、MoE 等。",
+      "核验边界": "社区重组，有额外章节及 6 个作业；不能把其章节号、题目或示例当成 2026 官方对应项。"
+    }
+  },
+  {
+    "id": "r068",
+    "priority": "P2",
+    "title": "Datawhale cs336-tutorial",
+    "url": "https://github.com/datawhalechina/cs336-tutorial",
+    "links": [
+      {
+        "label": "Datawhale cs336-tutorial",
+        "href": "https://github.com/datawhalechina/cs336-tutorial"
+      }
+    ],
+    "purpose": "2025 学习入口集合，包含 2025 YouTube、B站机翻与共创入口。",
+    "extra": "",
+    "category": "6. 中文辅助：与官方分开使用",
+    "section": "",
+    "raw": {
+      "优先级": "P2",
+      "资源": "[Datawhale cs336-tutorial](https://github.com/datawhalechina/cs336-tutorial)",
+      "版本与用途": "2025 学习入口集合，包含 2025 YouTube、B站机翻与共创入口。",
+      "核验边界": "已核验 README 列表；不把链接存在等同于字幕逐条准确或飞书无需登录。"
+    }
+  },
+  {
+    "id": "r069",
+    "priority": "P2",
+    "title": "2026 B站中文配音版",
+    "url": "https://www.bilibili.com/video/BV11LEA6eEuj/",
+    "links": [
+      {
+        "label": "2026 B站中文配音版",
+        "href": "https://www.bilibili.com/video/BV11LEA6eEuj/"
+      }
+    ],
+    "purpose": "想先用中文理解口头讲解时按需使用。",
+    "extra": "",
+    "category": "6. 中文辅助：与官方分开使用",
+    "section": "",
+    "raw": {
+      "优先级": "P2",
+      "资源": "[2026 B站中文配音版](https://www.bilibili.com/video/BV11LEA6eEuj/)",
+      "版本与用途": "想先用中文理解口头讲解时按需使用。",
+      "核验边界": "第三方配音；页面标题标 2026。未逐集校对完整性、翻译和剪辑，公式及术语回查官方。"
+    }
+  },
+  {
+    "id": "r070",
+    "priority": "P2",
+    "title": "Munger Yang 的 2026 学习笔记",
+    "url": "https://github.com/Mungeryang/CS336-From-Scratch-Spring2026",
+    "links": [
+      {
+        "label": "Munger Yang 的 2026 学习笔记",
+        "href": "https://github.com/Mungeryang/CS336-From-Scratch-Spring2026"
+      }
+    ],
+    "purpose": "个人笔记、实验记录与问题整理，作为第二种表述。",
+    "extra": "",
+    "category": "6. 中文辅助：与官方分开使用",
+    "section": "",
+    "raw": {
+      "优先级": "P2",
+      "资源": "[Munger Yang 的 2026 学习笔记](https://github.com/Mungeryang/CS336-From-Scratch-Spring2026)",
+      "版本与用途": "个人笔记、实验记录与问题整理，作为第二种表述。",
+      "核验边界": "作者自标 2026，夹带作业实现与其他扩展；未逐项审计，不作为技术结论唯一依据。"
+    }
+  },
+  {
+    "id": "r071",
+    "priority": "P2",
+    "title": "2025 官方存档",
+    "url": "https://cs336.stanford.edu/spring2025/",
+    "links": [
+      {
+        "label": "2025 官方存档",
+        "href": "https://cs336.stanford.edu/spring2025/"
+      }
+    ],
+    "purpose": "查历史讲次、课件和作业快照；页面明确标为 archived。",
+    "extra": "",
+    "category": "7. 2025 历史补充与版本避坑",
+    "section": "",
+    "raw": {
+      "优先级": "P2",
+      "资源": "[2025 官方存档](https://cs336.stanford.edu/spring2025/)",
+      "使用方式": "查历史讲次、课件和作业快照；页面明确标为 archived。"
+    }
+  },
+  {
+    "id": "r072",
+    "priority": "P2",
+    "title": "2025 官方录像列表",
+    "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_",
+    "links": [
+      {
+        "label": "2025 官方录像列表",
+        "href": "https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_"
+      }
+    ],
+    "purpose": "某个概念想换一版讲解时使用。它不是 2026 时间轴。",
+    "extra": "",
+    "category": "7. 2025 历史补充与版本避坑",
+    "section": "",
+    "raw": {
+      "优先级": "P2",
+      "资源": "[2025 官方录像列表](https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_)",
+      "使用方式": "某个概念想换一版讲解时使用。它不是 2026 时间轴。"
+    }
+  },
+  {
+    "id": "r073",
+    "priority": "P2",
+    "title": "2025 官方讲义仓库",
+    "url": "https://github.com/stanford-cs336/spring2025-lectures",
+    "links": [
+      {
+        "label": "2025 官方讲义仓库",
+        "href": "https://github.com/stanford-cs336/spring2025-lectures"
+      }
+    ],
+    "purpose": "与 2025 录像配套，避免 `lectures` 当前主分支滚动更新造成错配。",
+    "extra": "",
+    "category": "7. 2025 历史补充与版本避坑",
+    "section": "",
+    "raw": {
+      "优先级": "P2",
+      "资源": "[2025 官方讲义仓库](https://github.com/stanford-cs336/spring2025-lectures)",
+      "使用方式": "与 2025 录像配套，避免 `lectures` 当前主分支滚动更新造成错配。"
+    }
+  }
+]
